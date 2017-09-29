@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suifeng.xsq.xsq.Me.MyCarActivity"
+    android:background="@color/colorWhite">
+
+    <!--  车库 顶部 -->
+    <RelativeLayout
+        android:id="@+id/MyCar_topR"
+        style="@style/base_title_white">
+        <ImageView
+            android:id="@+id/MyCar_topBackI"
+            style="@style/base_title_image"/>
+        <TextView
+            style="@style/base_title_text_red"
+            android:text="@string/wodecheku"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/MyCar_topI"
+        android:layout_below="@id/MyCar_topR"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/user_car"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/MyCar_topI"
+        android:paddingLeft="20dp"
+        android:background="@color/beijingse">
+        <ImageView
+            android:id="@+id/MyCar_carI"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/first_first_selected"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@id/MyCar_carI"
+            android:layout_marginLeft="20dp"
+            android:text="@string/wodeaiche"
+            />
+    </RelativeLayout>
+    <!--车辆列表-->
+
+    <!--车辆列表-->
+    <TextView
+        android:id="@+id/MyCar_addCarT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/tianjiawodeaiche"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_16"/>
+</RelativeLayout>

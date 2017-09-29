@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--图片大小-->
+    <dimen name="image_leaveJiantouSmall">14dp</dimen>
+
+    <!--edit 输入框高度-->
+    <dimen name="edit_hight">35dp</dimen>
+    <!-- 文字字体大小-->
+    <dimen name="text_ruleSize">14sp</dimen>
+    <dimen name="text_bigButtonSize">20sp</dimen>
+    <dimen name="text_smallSize">10sp</dimen>
+    <dimen name="text_bigSize">16sp</dimen>
+    <dimen name="text_centerSize">15sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_11">11sp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+
+    <!--首页 下面布局 边框 单个布局-->
+    <dimen name="home_r_cheek">10dp</dimen>
+</resources>

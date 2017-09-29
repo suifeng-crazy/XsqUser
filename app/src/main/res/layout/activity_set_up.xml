@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beijingse"
+    tools:context="com.example.suifeng.xsq.xsq.Me.SetUpActivity">
+
+    <!--  设置页面 顶部 -->
+    <RelativeLayout
+        android:id="@+id/setUp_topR"
+        style="@style/base_title_white">
+        <ImageView
+            android:id="@+id/setUp_topI"
+            style="@style/base_title_image"/>
+        <TextView
+            style="@style/base_title_text_red"
+            android:text="@string/shezhi"/>
+    </RelativeLayout>
+    <!--一行做一个单独的 R ，然后复制每个R ，通过R 来进行重新排序，增加可操作性-->
+    <!--这个页面里面 横线 在上面的R 上-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setUp_topR">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/setUp_loginPR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/xiugaidenglumima"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_payPR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_loginPR">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/xiugaizhifumima"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_phoneR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_payPR"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/shoujihao"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_WXR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_phoneR"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/weixin"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_QQR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_WXR"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/QQhao"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_postBoxR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_QQR"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/youxiangdizhi"/>
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_messageR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_postBoxR">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/tuisongxiaoxi"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_editR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_messageR"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/banbenjiance"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setUp_aboutUsR"
+                style="@style/base_setUp_RelativeLayout"
+                android:layout_below="@id/setUp_editR">
+
+                <TextView
+                    style="@style/setUp_text"
+                    android:text="@string/guanyuwomen"/>
+
+                <ImageView
+                    style="@style/intoNextPage_arrow_gray_small2"/>
+
+                <View
+                    style="@style/setUp_henxianV"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/setUp_aboutUsR"
+                android:layout_marginTop="40dp"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:text="@string/tuichudenglu"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

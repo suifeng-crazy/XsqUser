@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlue">#48abef</color>
+    <color name="colorGray">#7f7f7f</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="touming">#00000000</color>  <!-- 透明色 -->
+    <color name="colorblack">#FF000000</color>
+    <color name="text_whitesmoke">#888888</color>  <!-- 字体灰色-->
+    <color name="beijingse">#f6f7fb</color> <!-- 背景色-->
+
+    <color name="yellow">#ff8600</color>
+    <color name="neibuHuiSe">#f2f2f2</color>
+    <color name="neibuHuiSe2">#efeeee</color>
+    <color name="colorRed">#ec3d42</color>
+
+    <!--主题灰色-->
+    <color name="color_Huise_Main">#f3f3f3</color>
+</resources>
