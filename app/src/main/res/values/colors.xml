@@ -3,7 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorBlue">#48abef</color>
+    <color name="colorBlue">#2196f3</color>
     <color name="colorGray">#7f7f7f</color>
     <color name="colorWhite">#ffffff</color>
     <color name="touming">#00000000</color>  <!-- 透明色 -->
@@ -18,4 +18,10 @@
 
     <!--主题灰色-->
     <color name="color_Huise_Main">#f3f3f3</color>
+
+
+
+    <!-- 下面是正确的-->
+    <color name="textblack">#333333</color> <!-- 字体黑色 -->
+    <color name="textgray">#cccccc</color> <!-- 字体黑色 -->
 </resources>

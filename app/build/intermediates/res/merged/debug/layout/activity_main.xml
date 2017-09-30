@@ -15,7 +15,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="center"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="16dp"
         android:layout_marginTop="20dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
@@ -66,7 +66,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/first_loginL"
-        android:layout_gravity="center_vertical">
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="27dp">
 
         <!-- 用户名 图片输入框居中操作-->
         <LinearLayout
@@ -83,8 +84,8 @@
 
             <EditText
                 android:id="@+id/login_userNameI"
-                android:layout_width="200dp"
-                android:layout_height="@dimen/edit_hight"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/base_edit_xhxl"
                 android:hint="@string/login_qsrsjh"
@@ -184,9 +185,9 @@
             android:text="登录"
             android:textColor="@color/colorWhite"
             android:textSize="20sp"
+            android:layout_marginTop="18dp"
             android:layout_below="@+id/login_passwordL"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"/>
+            android:layout_centerHorizontal="true"/>
         <Button
             android:id="@+id/login_regB"
             android:layout_width="250dp"

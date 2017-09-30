@@ -15,7 +15,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="center"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="16dp"
         android:layout_marginTop="20dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
@@ -66,12 +66,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/first_loginL"
-        android:layout_gravity="center_vertical">
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
 
         <!-- 用户名 图片输入框居中操作-->
         <LinearLayout
             android:id="@+id/login_userNameL"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:gravity="bottom">
@@ -83,8 +86,8 @@
 
             <EditText
                 android:id="@+id/login_userNameI"
-                android:layout_width="200dp"
-                android:layout_height="@dimen/edit_hight"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/base_edit_xhxl"
                 android:hint="@string/login_qsrsjh"
@@ -96,7 +99,7 @@
         <!-- 密码 图片输入框居中操作-->
         <LinearLayout
             android:id="@+id/login_passwordL"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:gravity="bottom"
@@ -123,14 +126,13 @@
         <!-- 验证码 图片输入框、倒计时显示居中操作-->
         <LinearLayout
             android:id="@+id/login_phoneCodeL"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:gravity="bottom"
             android:layout_below="@id/login_userNameL"
             android:layout_marginTop="15dp"
-            android:visibility="invisible"
-            android:layout_marginLeft="10dp">
+            android:visibility="invisible">
 
             <ImageView
                 android:layout_width="20dp"
@@ -147,10 +149,6 @@
                 android:textColor="@color/colorGray"
                 android:textColorHint="@color/colorGray"
                 android:textSize="14sp"/>
-
-            。。。。。。sdf
-
-
         </LinearLayout>
         <TextView
             android:id="@+id/login_getCodeT"
@@ -184,9 +182,9 @@
             android:text="登录"
             android:textColor="@color/colorWhite"
             android:textSize="20sp"
+            android:layout_marginTop="18dp"
             android:layout_below="@+id/login_passwordL"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"/>
+            android:layout_centerHorizontal="true"/>
         <Button
             android:id="@+id/login_regB"
             android:layout_width="250dp"
