@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suifeng.xsq.xsq.ServerItem.ServierMainActivity"
+    android:background="@color/beijingse">
+
+    <!--  服务主页页面 顶部 -->
+    <RelativeLayout
+        android:id="@+id/ServerMain_topR"
+        style="@style/base_title_white">
+
+        <TextView
+            android:id="@+id/ServerMain_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="青岛"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            style="@style/base_title_text_red"
+            android:text="@string/fuwu"/>
+    </RelativeLayout>
+    <!--顶部标题栏-->
+    <!--轮播图 占位-->
+    <ImageView
+        android:id="@+id/ServerMain_lunbo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/ServerMain_topR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <!--轮播图 占位-->
+    <!--服务主导航栏-->
+    <RelativeLayout
+        android:layout_below="@id/ServerMain_lunbo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                style="@style/base_littleTop_text"
+                android:text="@string/chezhufuwu"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            <ImageView
+                android:id="@+id/ServerMain_moreI"
+                style="@style/intoNextPage_arrow_gray_small2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/gengduo"
+                android:gravity="center"
+                android:layout_toLeftOf="@id/ServerMain_moreI"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--服务主导航栏-->
+    <!--卡片分类-->
+
+    <!--卡片分类-->
+    <!--底部导航栏-->
+    <LinearLayout
+        android:id="@+id/recLayout"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.example.xsq.BaseLayout.BaseBottomLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+        </com.example.xsq.BaseLayout.BaseBottomLayout>
+    </LinearLayout>
+</RelativeLayout>

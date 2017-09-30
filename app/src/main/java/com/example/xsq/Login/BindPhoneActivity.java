@@ -21,7 +21,8 @@ import com.example.xsq.util.NumberUtil;
 import com.example.xsq.util.PostParma;
 
 import static com.example.xsq.util.JsonStringMapUtil.checkUserPhone;
-// 系统更新，git上传递下来的
+
+
 // 第三方注册登录后，绑定手机号 操作。但是现在我直接是当做 注册做的了。失败。。。 bu
 // 忘记密码也是跳转到这个页面， ，，
 public class BindPhoneActivity extends BaseActivity {

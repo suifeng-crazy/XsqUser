@@ -5864,15 +5864,7 @@
                     "endOffset": 68506
                 },
                 "from": {
-                    "file": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 92,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 515
-                    }
+                    "file": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -10537,10 +10529,10 @@
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 1786,
+                        "startOffset": 1747,
                         "endLine": 47,
                         "endColumn": 12,
-                        "endOffset": 2386
+                        "endOffset": 2339
                     }
                 }
             },

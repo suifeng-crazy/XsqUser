@@ -40,12 +40,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\password_agren.png"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\youhuika.png",
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\youhuika.png"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
@@ -56,12 +56,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\banjinpenqi.png"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_noselect.png",
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\my_noselect.png"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
@@ -96,12 +96,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\daolujiuyuan.png"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tuijiangouche.png",
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\tuijiangouche.png"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\store.png",
@@ -132,12 +132,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\dijiabaoxian.png"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\low_price.png",
-        "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\low_price.png"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_xhx.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\text_xhx.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\low_price.png",
+        "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\drawable\\low_price.png"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\first_lb.png",
