@@ -14,7 +14,7 @@ import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.baidu.location.Poi;
 import com.example.R;
-// 注解 9.30 1426
+// 注解 9.30 1426  再次提交
 // 提交 1427
 import java.util.List;
 public class Login extends AppCompatActivity {
