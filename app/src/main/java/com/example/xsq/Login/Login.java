@@ -16,8 +16,6 @@ import com.baidu.location.Poi;
 import com.example.R;
 
 import java.util.List;
-// 这个怎么提交啊？？？
-// 为什么没有提交上呢？？ 
 public class Login extends AppCompatActivity {
 
     public LocationClient mLocationClient = null;
