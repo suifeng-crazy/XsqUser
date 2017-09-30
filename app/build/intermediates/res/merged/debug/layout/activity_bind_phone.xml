@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.suifeng.xsq.xsq.Login.BindPhoneActivity">
+    tools:context="com.example.xsq.Login.BindPhoneActivity"
+    android:background="@color/colorWhite">
 
 
     <ImageView
@@ -25,13 +26,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
 
 
         <!-- 密码 图片输入框居中操作-->
         <LinearLayout
             android:id="@+id/loginPassword_userNameL"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:gravity="bottom"
@@ -40,21 +43,27 @@
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/phone"
-                android:scaleType="fitCenter"/>
+                android:scaleType="centerInside"
+                android:layout_marginBottom="-3dp"/>
             <EditText
                 android:id="@+id/BindPhone_PhoneE"
                 android:layout_width="200dp"
                 android:layout_height="@dimen/edit_hight"
                 android:hint="请输入手机号"
+                android:maxLength="11"
+                android:maxLines="1"
                 android:textColor="@color/colorGray"
                 android:textColorHint="@color/colorGray"
-                android:textSize="14sp" />
+                android:textSize="@dimen/text_ruleSize"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/base_edit_xhxl"/>
         </LinearLayout>
 
         <!-- 密码 图片输入框居中操作-->
         <LinearLayout
             android:id="@+id/loginPassword_CodeL"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:gravity="bottom"
@@ -64,16 +73,20 @@
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/yanzhenma"
-                android:scaleType="fitCenter"/>
+                android:scaleType="centerInside"/>
 
             <EditText
                 android:id="@+id/BindPhone_codeE"
                 android:layout_width="200dp"
                 android:layout_height="@dimen/edit_hight"
                 android:hint="请输入验证码"
-                android:textColor="@color/colorGray"
                 android:textColorHint="@color/colorGray"
-                android:textSize="14sp"/>
+                android:textSize="14sp"
+                android:maxLines="1"
+                android:maxLength="11"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/base_edit_xhxl"/>
         </LinearLayout>
         <TextView
             android:id="@+id/BindPhone_getCodeT"
@@ -82,7 +95,7 @@
             android:text="@string/login_hqyzm"
             android:layout_alignRight="@id/loginPassword_CodeL"
             android:layout_alignTop="@id/loginPassword_CodeL"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="24dp"
             android:layout_marginLeft="10dp"
             android:textSize="@dimen/text_ruleSize"
             android:textColor="@color/colorBlue"
@@ -94,16 +107,16 @@
             android:background="@color/colorBlue"
             android:layout_alignTop="@id/loginPassword_CodeL"
             android:layout_toLeftOf="@id/BindPhone_getCodeT"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="24dp"
             android:visibility="visible"/>
         <Button
             android:id="@+id/BindPhone_xybB"
             android:layout_below="@id/loginPassword_CodeL"
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_centerInParent="true"
             android:background="@drawable/shape_corner"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="35dp"
             android:gravity="center"
             android:layout_gravity="center_vertical"
             android:text="@string/xyb"

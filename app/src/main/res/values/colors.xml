@@ -24,4 +24,5 @@
     <!-- 下面是正确的-->
     <color name="textblack">#333333</color> <!-- 字体黑色 -->
     <color name="textgray">#cccccc</color> <!-- 字体黑色 -->
+    <color name="mcolor_orange">#f87a01</color>
 </resources>

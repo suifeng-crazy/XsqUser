@@ -20,12 +20,12 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me_main.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\layout\\activity_me_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -44,12 +44,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\layout\\order_list.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_car_add_car.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\layout\\activity_my_car_add_car.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",

@@ -24,24 +24,28 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:id="@+id/first_loginL"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:gravity="center">
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"/>
+                android:layout_weight="0.3"/>
 
             <TextView
                 android:id="@+id/login_loginT"
                 style="@style/login_text_select"
-                android:layout_width="70dp"
+                android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/base_text_bottom_hx_blue"
                 android:text="登录"/>
@@ -49,20 +53,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="0.4"/>
 
             <TextView
                 android:id="@+id/registerT"
                 style="@style/login_text_noselect"
-                android:layout_width="70dp"
+                android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.07"
                 android:text="注册"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"/>
+                android:layout_weight="0.3"/>
         </LinearLayout>
 
         <!-- 登录、注册 按钮转换 -->
@@ -253,7 +256,7 @@
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"/>
+                android:layout_weight="0.6"/>
 
             <ImageView
                 android:id="@+id/Login_WXI"

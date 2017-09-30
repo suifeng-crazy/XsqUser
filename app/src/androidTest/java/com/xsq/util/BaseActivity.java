@@ -15,8 +15,8 @@ import android.view.WindowManager;
 import android.widget.PopupWindow;
 import android.widget.Toast;
 
-import com.example.suifeng.xsq.xsq.Login.MainActivity;
-import com.example.suifeng.xsq.R;
+import com.example.xsq.Login.MainActivity;
+import com.example.R;
 
 import java.util.ArrayList;
 import java.util.List;

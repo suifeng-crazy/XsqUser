@@ -4,7 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.example.suifeng.xsq.R;
+import com.example.R;
 
 /**
  * 等待加载类 12.08
