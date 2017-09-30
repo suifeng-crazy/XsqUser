@@ -125,6 +125,7 @@ public class MainActivity extends BaseActivity {
                 }
                 break;
             case R.id.registerT: // 点击注册事件
+                login_forgetPasswrod.setVisibility(View.INVISIBLE);
                 getCodeMath = 1;
                 registerT.setBackgroundResource(R.drawable.base_text_bottom_hx_blue);
                 registerT.setTextColor(getResources().getColor(R.color.colorBlue));
@@ -140,6 +141,7 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.login_loginT:
                 getCodeMath = 0;
+                login_forgetPasswrod.setVisibility(View.VISIBLE);
                 registerT.setBackgroundResource(R.drawable.base_text_bottom_hx_null);
                 login_loginT.setBackgroundResource(R.drawable.base_text_bottom_hx_blue);
                 registerT.setTextColor(getResources().getColor(R.color.colorblack));
