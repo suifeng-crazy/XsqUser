@@ -4,6 +4,14 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
