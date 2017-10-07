@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.suifeng.xsq.xsq.Login.Login">
+    tools:context="com.example.xsq.Login.Login">
 
     <WebView
         android:id="@+id/testWebView"

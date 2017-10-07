@@ -103,6 +103,7 @@
                     <TextView
                         style="@style/me_order_text"
                         android:id="@+id/MeMain_sumMoneyT"
+                        android:textColor="@color/mcolor_orange"
                         android:text="0.00"/>
 
                     <TextView

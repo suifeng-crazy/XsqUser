@@ -23,6 +23,7 @@ import com.example.xsq.util.PostParma;
 
 import static com.example.xsq.util.JsonStringMapUtil.checkUserPhone;
 // 直接在 git 上修改。看能否下载下来。
+// 测试提交
 public class MainActivity extends BaseActivity {
     //  longinMath 是登录方法， 1代表用户名密码登录， 2为 短信验证码登录
     // i 代表 执行哪个 runable ， 做区分用即可。
