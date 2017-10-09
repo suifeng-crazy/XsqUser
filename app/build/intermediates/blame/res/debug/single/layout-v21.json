@@ -12,6 +12,10 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
@@ -24,8 +28,20 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",

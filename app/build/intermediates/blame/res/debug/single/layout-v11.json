@@ -16,6 +16,14 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
@@ -32,6 +40,14 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
@@ -40,8 +56,16 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",

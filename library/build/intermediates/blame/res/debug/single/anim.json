@@ -1,7 +1,11 @@
 [
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
@@ -12,10 +16,6 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_fade_in.xml"
     },
@@ -24,12 +24,68 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -38,10 +94,6 @@
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -56,24 +108,12 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
