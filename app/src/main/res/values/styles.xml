@@ -50,18 +50,17 @@
     <!-- 底部导航图片样式 -->
     <style name="base_bottom_image">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_height">30dp</item>
         <item name="android:paddingTop">5dp</item>
         <item name="android:paddingBottom">5dp</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_weight">1</item>
         <item name="android:scaleType">centerInside</item>
     </style>
 
     <!-- 个人中心订单图片样式 -->
     <style name="base_meMain_orderI">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_height">12dp</item>
         <item name="android:paddingTop">5dp</item>
         <item name="android:paddingBottom">5dp</item>
         <item name="android:layout_gravity">center</item>
@@ -82,11 +81,12 @@
 
     <!-- 底部横向 导航栏 Linelayot 使用样式-->
     <style name="base_horizontal_lineLayout">
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">66dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <!-- 底部横向 导航栏 Linelayot 使用样式-->
@@ -121,9 +121,9 @@
     
     <!--进入下一页灰色小箭头-->
     <style name="intoNextPage_arrow_gray_small">
-        <item name="android:layout_width">9dp</item>
-        <item name="android:layout_height">9dp</item>
-        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_width">7dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerInside</item>
         <item name="android:src">@drawable/arrow_whitesmork</item>
     </style>
 
@@ -161,8 +161,26 @@
         <item name="android:gravity">center</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/mcolor_textHui</item>
     </style>
-
+    <!-- 个人中心—钱包—文字样式 -->
+    <style name="me_money_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/mcolor_textHui</item>
+    </style>
+    <!-- 个人中心—服务—文字样式 -->
+    <style name="me_server_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
 
     <!--首页 宣传车图片样式  高 125 款 200 的比例-->
     <style name="home_car_imgae">

@@ -9,7 +9,7 @@ public class User {
     public String userPhone;
     public Double userMoney;
     public Double userRedMoney;
-    public int userGod;
+    public Double userGod;
     public String userNickName;
     public String userSex;
     public String userRealName;
@@ -44,11 +44,11 @@ public class User {
         this.userRedMoney = userRedMoney;
     }
 
-    public int getUserGod() {
+    public Double getUserGod() {
         return userGod;
     }
 
-    public void setUserGod(int userGod) {
+    public void setUserGod(Double userGod) {
         this.userGod = userGod;
     }
 

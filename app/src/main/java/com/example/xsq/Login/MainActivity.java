@@ -36,7 +36,7 @@ public class MainActivity extends BaseActivity {
     public TextView getCodeT,login_loginT,registerT,chang_longinMathT,login_getCodeT,login_verLine,
             login_forgetPasswrod;
     public LinearLayout login_passwordL,login_phoneCodeL;
-    public ImageView Login_colseI;
+    public ImageView Login_colseI,mIQQ,mIWX;
     // 临时没有 QQ 第三方申请的， 直接用 这个图片代替跳转绑定手机号操作。
     public ImageView login_toBindPhone;
     @Override
@@ -64,6 +64,8 @@ public class MainActivity extends BaseActivity {
         login_phoneCodeL = findViewById(R.id.login_phoneCodeL);
         login_getCodeT = findViewById(R.id.login_getCodeT);
         login_verLine = findViewById(R.id.login_verLine);
+        mIQQ = findViewById(R.id.Login_QQI);
+        mIWX = findViewById(R.id.Login_WXI);
 
         login_forgetPasswrod.setOnClickListener(this);
         longinB.setOnClickListener(this);
@@ -72,16 +74,28 @@ public class MainActivity extends BaseActivity {
         registerT.setOnClickListener(this);
         chang_longinMathT.setOnClickListener(this);
         Login_colseI.setOnClickListener(this);
+        mIQQ.setOnClickListener(this);
+        mIWX.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+            case R.id.Login_QQI:
+            case R.id.Login_WXI: // 微信、QQ 登陆后绑定注册
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this,BindPhoneActivity.class);
+                intent.putExtra("math","BindPhone");
+                startActivity(intent);
+                break;
             case R.id.Login_colseI:
                 finish();
                 break;
             case R.id.login_forgetPasswrod:  // 忘记密码，
-                strActivity(MainActivity.this,BindPhoneActivity.class);
+                Intent intent2 = new Intent();
+                intent2.setClass(MainActivity.this,BindPhoneActivity.class);
+                intent2.putExtra("math","forgetPassword");
+                startActivity(intent2);
                 break;
             case R.id.login_loginB:
                 if(longinB.getText().toString().equals(getResources().getString(R.string.login))){
@@ -104,7 +118,7 @@ public class MainActivity extends BaseActivity {
                     getCode(2); // 获取短信验证码 注册用短信验证码
                 }else{
                     getCodeMeth();  // 读秒
-                    getCode(1); // 获取短信验证码
+                    getCode(1); // 获取短信验证码 ,登陆用短信验证码
                 }
                 break;
             case R.id.login_changeLoginMath:
@@ -239,8 +253,6 @@ public class MainActivity extends BaseActivity {
                     // 在这里的case 里面进行网络链接， 访问服务器， 然后获取数据，
                     switch (STATUS_CHECK) {
                         case STATUS_CHECK:
-                            // 判断登陆是否成功？？ 这个里面有 post 、get 方式链接服务器， 并且得到返回数据。
-                            // 往里面放 map 的数据类型， 然后在方法里面将数据类型组装起来。
                             if(longinMath == 1){
                                 resStatus = PostParma.getToken("_a=" + userName, "_p=" + password);
                             }else{
@@ -250,20 +262,18 @@ public class MainActivity extends BaseActivity {
                     }
                     mHandler.sendEmptyMessage(STATUS_CHECK);
                 }else if(i ==1){
-                    // 获取短信验证码，
+                    // 获取短信验证码，登陆用
                     switch (STATUS_CHECK) {
                         case STATUS_CHECK:
-                            // 判断登陆是否成功？？ 这个里面有 post 、get 方式链接服务器， 并且得到返回数据。
-                            // 往里面放 map 的数据类型， 然后在方法里面将数据类型组装起来。
-                            isGetTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_PhoneCode,userName);
+                            isGetTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_PhoneLoginCode,userName);
+                            mHandler.sendEmptyMessage(888);
                             break;
                     }
-                }else if(i == 2){
-                    switch (STATUS_CHECK) {
+                }else if(i == 2){  // 获取短信验证码，注册用
+                    switch (STATUS_CHECK) {  //
                         case STATUS_CHECK:
-                            // 判断登陆是否成功？？ 这个里面有 post 、get 方式链接服务器， 并且得到返回数据。
-                            // 往里面放 map 的数据类型， 然后在方法里面将数据类型组装起来。
                             isGetRegTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_PhoneCode,userName);
+                            mHandler.sendEmptyMessage(999);
                             break;
                 }
                 }else if(i == 4){
@@ -281,6 +291,16 @@ public class MainActivity extends BaseActivity {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
+                case 888:
+                    if(!isGetTrue){
+                        toastMessage(MainActivity.this,NumberUtil.strError);
+                    }
+                    break;
+                case 999:
+                    if(!isGetRegTrue){
+                        toastMessage(MainActivity.this,NumberUtil.strError);
+                    }
+                    break;
                 case STATUS_CONNECT_TIMEOUT:  // 链接超时， 在 请求的时候已经做了提示了。 所以就不用进行进一步的提示了。
                     hideDialog();
                     break;

@@ -4,19 +4,11 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
@@ -24,16 +16,16 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
@@ -46,77 +38,5 @@
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\Xsq\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "F:\\workspace\\XsqUser\\library\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
     }
 ]

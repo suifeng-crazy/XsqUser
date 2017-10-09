@@ -122,7 +122,7 @@ public class PostParma {
             user.setUserSex(jsonData.optString("SEX"));
             user.setUserRealName(jsonData.optString("REAL_NAME"));
             user.setUserMoney(jsonData.optDouble("PURSE_BALANCE"));
-            user.setUserGod(jsonData.optInt("GOLD_BALANCE"));
+            user.setUserGod(jsonData.optDouble("GOLD_BALANCE"));
             user.setUserHeaderImage(jsonData.optString("AUTOGRAPH"));
             user.setUserRedMoney(jsonData.getDouble("VOUCHER_BALANCE"));
             return user;
@@ -140,10 +140,19 @@ public class PostParma {
      * @param code              验证码
      * @return
      */
-    public static Boolean regUser(String userPhone, String mPasswrodF, String code) throws Exception{
+    public static Boolean regUser(String userPhone, String mPasswrodF, String code,String math) throws Exception{
         JSONObject jsonObject;
-        String newData = "phe="+userPhone+"&code="+code+"&pwd="+mPasswrodF;
-        String request = HttpGetOrPost.getJsonHttpGetLin(ConnectionAddress.Base_reg, newData);
+        String newData = "";
+
+        String request = "";
+        if(math.equals("BindPhone")){
+            newData = "phe="+userPhone+"&code="+code+"&pwd="+mPasswrodF;
+            request = HttpGetOrPost.getJsonHttpGetLin(ConnectionAddress.Base_reg, newData);
+        }else{
+            newData = "phe="+userPhone+"&code="+code+"&loginPwd="+mPasswrodF;
+            request = HttpGetOrPost.getJsonHttpGetLin(ConnectionAddress.Base_newreg, newData);
+        }
+
         System.out.println("用户注册:"+request);
         if(request == null ||request.equals("")){
             ParsingJsonString.nowConnectBase();
@@ -151,8 +160,10 @@ public class PostParma {
         }
         jsonObject = new JSONObject(request);
         if(jsonObject.optBoolean("success")){
-            NumberUtil.token = jsonObject.optJSONObject("data").optString("LOGIN_TOKEN");
-            NumberUtil.sellerId =jsonObject.optJSONObject("data").optString("CODE");
+            if(math.equals("BindPhone")) {
+                NumberUtil.token = jsonObject.optJSONObject("data").optString("LOGIN_TOKEN");
+                NumberUtil.sellerId = jsonObject.optJSONObject("data").optString("CODE");
+            }
             return true;
         }else {
             NumberUtil.strError = jsonObject.optString("message");

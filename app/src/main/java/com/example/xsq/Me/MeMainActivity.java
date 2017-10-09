@@ -113,7 +113,7 @@ public class MeMainActivity extends BaseActivity {
                         mTvUserName.setText(user.getUserPhone());
                         mTvSumMoney.setText(user.getUserMoney().toString());
                         mTvRedMoney.setText(user.getUserRedMoney().toString());
-                        mTvGodMoney.setText(user.getUserGod());
+                        mTvGodMoney.setText(user.getUserGod().toString());
 
                         // 设置 用户头像展示。 这个需要做优化，
 //                        try {

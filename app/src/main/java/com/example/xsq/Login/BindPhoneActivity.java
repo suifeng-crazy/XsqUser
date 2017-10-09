@@ -29,7 +29,8 @@ public class BindPhoneActivity extends BaseActivity {
     ImageView imageView;
     Button BindPhone_xybB;
     TextView mTvGetCode;
-    String userPhone,mPhoneCode;
+    //                           进入的方式
+    String userPhone,mPhoneCode,math;
     Boolean isGetTrue,isTrueCodeB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,14 @@ public class BindPhoneActivity extends BaseActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_bind_phone);
         initUI();
+        initData();
     }
+
+    private void initData() {
+        Intent intent = getIntent();
+        math = intent.getStringExtra("math");
+    }
+
     public void initUI(){
         mEdPhone = findViewById(R.id.BindPhone_PhoneE);
         mEdCode = findViewById(R.id.BindPhone_codeE);
@@ -49,6 +57,8 @@ public class BindPhoneActivity extends BaseActivity {
 
         mTvGetCode.setOnClickListener(this);
     }
+
+
 
     @Override
     public void onClick(View view) {
@@ -140,13 +150,15 @@ public class BindPhoneActivity extends BaseActivity {
         @Override
         public void run() {
             try {
-                // 这里是一个常量 ， 可以在跳转 mRunnable 之前设置一遍， 这样跳转过来之后就知道应该走哪一个 case 了。
-                // 在这里的case 里面进行网络链接， 访问服务器， 然后获取数据，
                 switch (STATUS_CHECK) {
                     case STATUS_CHECK:
-                        // 判断登陆是否成功？？ 这个里面有 post 、get 方式链接服务器， 并且得到返回数据。
-                        // 往里面放 map 的数据类型， 然后在方法里面将数据类型组装起来。
-                        isGetTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_PhoneCode,userPhone);
+                        // 判断是因为那种情况进入的这个页面
+                        if(math.equals("BindPhone")){
+                            isGetTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_PhoneCode,userPhone);
+                        }else{
+                            isGetTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_ForgotLoginCode,userPhone);
+                        }
+
                         break;
                 }
             } catch (Exception e) {
@@ -180,6 +192,7 @@ public class BindPhoneActivity extends BaseActivity {
                         intent.setClass(BindPhoneActivity.this,LoginPasswordActivity.class);
                         intent.putExtra("userPhone",userPhone);
                         intent.putExtra("code",mPhoneCode);
+                        intent.putExtra("math",math);
                         hideDialog();
                         startActivity(intent);
                         setGo(true);

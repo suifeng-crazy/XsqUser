@@ -1,54 +1,6 @@
 [
     {
-        "outputFile": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "C:\\Users\\10475\\.android\\build-cache\\2ca6557573ea570884d670c0f6518493047b45b0\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "C:\\Users\\suifeng\\.android\\build-cache\\44d3fdc0b1987cc4f85c1bebe5518098452224ee\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\workspace\\myFXS\\myFXS\\Xsq\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {

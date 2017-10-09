@@ -56,13 +56,13 @@
 
             <ImageView
                 android:id="@+id/Me_touXiangIM"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="40dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/first_first_selected"/>
+                android:src="@drawable/myheader"/>
 
             <TextView
                 android:id="@+id/Me_userNameT"
@@ -70,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@id/Me_touXiangIM"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
                 android:layout_toRightOf="@id/Me_touXiangIM"
                 android:text="@string/weidenglong"
                 android:textColor="@color/colorWhite"
@@ -80,6 +81,7 @@
                 android:layout_width="70dp"
                 android:layout_height="20dp"
                 android:layout_alignBottom="@id/Me_touXiangIM"
+                android:layout_marginBottom="3dp"
                 android:layout_alignLeft="@id/Me_userNameT"
                 android:background="@drawable/shape_yellow"
                 android:gravity="center"
@@ -91,7 +93,7 @@
             <LinearLayout
                 android:id="@+id/Me_MoneyR"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="66dp"
                 android:layout_below="@id/Me_topView"
                 android:background="@color/colorWhite"
                 android:paddingBottom="10dp"
@@ -101,13 +103,15 @@
                     style="@style/base_horizontal_lineLayout">
 
                     <TextView
-                        style="@style/me_order_text"
                         android:id="@+id/MeMain_sumMoneyT"
-                        android:textColor="@color/mcolor_orange"
-                        android:text="0.00"/>
-
+                        style="@style/me_money_text"
+                        android:text="0.00"
+                        android:textColor="@color/mcolor_orange"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="10dp"/>
                     <TextView
-                        style="@style/me_order_text"
+                        style="@style/me_money_text"
                         android:text="@string/qianbao"/>
                 </LinearLayout>
                 <LinearLayout
@@ -115,12 +119,15 @@
                     style="@style/base_horizontal_lineLayout">
 
                     <TextView
-                        style="@style/me_order_text"
+                        style="@style/me_money_text"
                         android:id="@+id/MeMain_redMoneyT"
+                        android:textColor="@color/mcolor_orange"
                         android:text="0.00"/>
-
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="10dp"/>
                     <TextView
-                        style="@style/me_order_text"
+                        style="@style/me_money_text"
                         android:text="@string/hongbao"/>
                 </LinearLayout>
                 <LinearLayout
@@ -128,12 +135,15 @@
                     style="@style/base_horizontal_lineLayout">
 
                     <TextView
-                        style="@style/me_order_text"
+                        style="@style/me_money_text"
                         android:id="@+id/MeMain_godMoneyT"
+                        android:textColor="@color/mcolor_orange"
                         android:text="0.00"/>
-
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="10dp"/>
                     <TextView
-                        style="@style/me_order_text"
+                        style="@style/me_money_text"
                         android:text="@string/jinbi"/>
                 </LinearLayout>
 
@@ -144,27 +154,31 @@
                 android:id="@+id/Me_allOrderR"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Me_MoneyR"
-                android:layout_marginTop="10dp"
-                android:background="@color/colorWhite">
-
+                android:layout_marginTop="9dp"
+                android:background="@color/colorWhite"
+                android:layout_below="@+id/Me_MoneyR"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/mcolor_hxB"/>
                 <TextView
                     android:id="@+id/Me_myOrderT"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="13dp"
                     android:text="@string/wodedingdan"
                     android:textColor="@color/colorblack"
-                    android:textSize="@dimen/text_bigSize"/>
+                    android:textSize="@dimen/text_14"/>
 
                 <ImageView
                     android:id="@+id/Me_allOrderIM"
                     style="@style/intoNextPage_arrow_gray_small"
                     android:layout_alignParentRight="true"
-                    android:layout_alignTop="@id/Me_myOrderT"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="8dp"/>
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="9dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -182,14 +196,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_below="@id/Me_myOrderT"
-                    android:layout_marginTop="10dp"
-                    android:background="@color/colorGray"/>
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/mcolor_hxB"/>
                 <!--下面是 订单横栏-->
                 <LinearLayout
                     android:id="@+id/Home_nav"
                     android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:layout_below="@id/Me_myOrderT"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/me_order_topxhx"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -198,7 +213,7 @@
 
                         <ImageView
                             style="@style/base_meMain_orderI"
-                            android:src="@drawable/daizhifu"/>
+                            android:src="@drawable/order_all"/>
 
                         <TextView
                             style="@style/me_order_text"
@@ -259,19 +274,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:text="@string/fenxianggeihaoyou"
                     android:textColor="@color/colorblack"
-                    android:textSize="@dimen/text_bigSize"/>
+                    android:textSize="@dimen/text_14"/>
 
                 <ImageView
                     android:id="@+id/Me_shareIM"
                     style="@style/intoNextPage_arrow_gray_small"
                     android:layout_alignParentRight="true"
-                    android:layout_alignTop="@id/Me_shareT"
                     android:layout_marginRight="10dp"
-                    android:layout_marginTop="8dp"/>
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -286,7 +301,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="5dp"
+                    android:layout_height="10dp"
                     android:layout_below="@id/Me_shareT"
                     android:background="@color/beijingse"/>
             </RelativeLayout>
@@ -301,7 +316,7 @@
                 <!--第一横向-->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="80dp"
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
@@ -313,7 +328,7 @@
                             android:src="@drawable/wodecheku"/>
 
                         <TextView
-                            style="@style/me_order_text"
+                            style="@style/me_server_text"
                             android:text="@string/wodecheku"/>
                     </LinearLayout>
 
@@ -330,7 +345,7 @@
                             android:src="@drawable/jifengrenwu"/>
 
                         <TextView
-                            style="@style/me_order_text"
+                            style="@style/me_server_text"
                             android:text="@string/jifengrenwu"/>
                     </LinearLayout>
 
@@ -347,7 +362,7 @@
                             android:src="@drawable/jifenshangcheng"/>
 
                         <TextView
-                            style="@style/me_order_text"
+                            style="@style/me_server_text"
                             android:text="@string/jifenshangcheng"/>
                     </LinearLayout>
 
@@ -360,7 +375,7 @@
                 <!--第一横向-->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="80dp"
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
@@ -372,7 +387,7 @@
                             android:src="@drawable/remenhuodong"/>
 
                         <TextView
-                            style="@style/me_order_text"
+                            style="@style/me_server_text"
                             android:text="@string/remenhuodong"/>
                     </LinearLayout>
 
@@ -389,7 +404,7 @@
                             android:src="@drawable/wodecabao"/>
 
                         <TextView
-                            style="@style/me_order_text"
+                            style="@style/me_server_text"
                             android:text="@string/wodekabao"/>
                     </LinearLayout>
 
@@ -406,7 +421,7 @@
                             android:src="@drawable/yaoqingyouli"/>
 
                         <TextView
-                            style="@style/me_order_text"
+                            style="@style/me_server_text"
                             android:text="@string/yaoqingyouli"/>
                     </LinearLayout>
                 </LinearLayout>

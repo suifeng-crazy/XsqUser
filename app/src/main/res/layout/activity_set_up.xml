@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/beijingse"
-    tools:context="com.example.suifeng.xsq.xsq.Me.SetUpActivity">
+    tools:context="com.example.xsq.Me.SetUpActivity">
 
     <!--  设置页面 顶部 -->
     <RelativeLayout
@@ -178,6 +178,7 @@
             </RelativeLayout>
 
             <TextView
+                android:id="@+id/setUp_outT"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_below="@id/setUp_aboutUsR"

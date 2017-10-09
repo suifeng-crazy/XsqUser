@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Xsq.iml" filepath="$PROJECT_DIR$/Xsq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Xsq.iml" filepath="$PROJECT_DIR$/Xsq.iml" />
       <module fileurl="file://$PROJECT_DIR$/XsqU.iml" filepath="$PROJECT_DIR$/XsqU.iml" />
-      <module fileurl="file://$PROJECT_DIR$/XsqUser.iml" filepath="$PROJECT_DIR$/XsqUser.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>

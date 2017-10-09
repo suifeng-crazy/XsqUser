@@ -23,7 +23,7 @@ public class LoginPasswordActivity extends BaseActivity {
 
     Boolean isRegSuccess;
     EditText mEtpasswordFirst, mEtpasswordSecond;
-    String mPasswrodF, mPasswrodS, userPhone, code;
+    String mPasswrodF, mPasswrodS, userPhone, code,math;
     ImageView imageView;
     Button AgainPassword_OKB;
 
@@ -41,6 +41,7 @@ public class LoginPasswordActivity extends BaseActivity {
         Intent intent = getIntent();
         userPhone = intent.getStringExtra("userPhone");
         code = intent.getStringExtra("code");
+        math = intent.getStringExtra("math");
     }
 
     public void initUI() {
@@ -84,13 +85,10 @@ public class LoginPasswordActivity extends BaseActivity {
         @Override
         public void run() {
             try {
-                // 这里是一个常量 ， 可以在跳转 mRunnable 之前设置一遍， 这样跳转过来之后就知道应该走哪一个 case 了。
-                // 在这里的case 里面进行网络链接， 访问服务器， 然后获取数据，
                 switch (STATUS_CHECK) {
                     case STATUS_CHECK:
-                        // 判断登陆是否成功？？ 这个里面有 post 、get 方式链接服务器， 并且得到返回数据。
-                        // 往里面放 map 的数据类型， 然后在方法里面将数据类型组装起来。
-                        isRegSuccess = PostParma.regUser(userPhone, mPasswrodF, code);
+                        // 判断是忘记密码，还是 新注册绑定的用户
+                        isRegSuccess = PostParma.regUser(userPhone, mPasswrodF, code,math);
                         break;
                 }
             } catch (Exception e) {
