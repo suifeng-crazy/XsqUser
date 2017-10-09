@@ -8,6 +8,298 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_message.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_order_message.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me_main.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_me_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_car_add_car.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_car_add_car.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_bottom.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\base_bottom.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_dialog.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\base_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_password.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_login_password.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_updata_progress.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\base_updata_progress.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me_main.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_me_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_main.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_shop_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_main.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_shop_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\content_login.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_password.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_login_password.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_updata_progress.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\base_updata_progress.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_list.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\order_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_servier_main.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_servier_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_car_main.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_car_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_car.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_my_car.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_up.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_set_up.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_recommed_buy.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_home_recommed_buy.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bind_phone.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_bind_phone.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
@@ -16,16 +308,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_second.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_action.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -36,8 +324,24 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_home_recommed_buy.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_list.xml",
@@ -52,24 +356,28 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\base_dialog.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_car_add_car.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_car_add_car.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_home.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\content_home.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_list.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_order_list.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_bottom.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\base_bottom.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -80,8 +388,28 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_me_info.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_up.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_set_up.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_car.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_car.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_second.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\content_second.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\content_login.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
@@ -92,20 +420,8 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_password.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_login_password.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me_main.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_me_main.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -120,48 +436,36 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_main.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_shop_main.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_bottom.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\base_bottom.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bind_phone.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_bind_phone.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\content_login.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_car_main.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_car_main.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
@@ -180,12 +484,24 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\notification_action.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_message.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_order_message.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_second.xml",
@@ -208,8 +524,8 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_updata_progress.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\base_updata_progress.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_car_add_car.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_my_car_add_car.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -224,12 +540,12 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
@@ -240,8 +556,16 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me_info.xml",
+        "source": "F:\\workspace\\XsqUser\\app\\src\\main\\res\\layout\\activity_me_info.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
@@ -252,24 +576,12 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_car_main.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_car_main.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
@@ -280,8 +592,16 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\5d6bbcc7171404bb685e173a5facc702a093287c\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\workspace\\XsqUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\10475\\.android\\build-cache\\fa14b2f32b1ee030dff48d948488c72130fa46c7\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
@@ -296,19 +616,11 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_up.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_set_up.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_servier_main.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_servier_main.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bind_phone.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_bind_phone.xml"
     }
 ]

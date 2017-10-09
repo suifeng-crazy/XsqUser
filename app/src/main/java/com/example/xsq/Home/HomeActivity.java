@@ -13,6 +13,7 @@ import com.example.xsq.util.UpdateManager;
 
 /**
  * 主页
+ * 测试别再出错了
  */
 public class HomeActivity extends BaseActivity {
     LinearLayout recommedBuyServer;
@@ -23,7 +24,8 @@ public class HomeActivity extends BaseActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_home);
         initUI();
-//        updateApp();// 检查更新app
+        updateApp();// 检查更新app
+
     }
 
     public void initUI(){
