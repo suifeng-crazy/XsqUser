@@ -31,7 +31,7 @@
         <LinearLayout
             android:id="@+id/first_loginL"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:gravity="center"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -45,7 +45,7 @@
             <TextView
                 android:id="@+id/login_loginT"
                 style="@style/login_text_select"
-                android:layout_width="40dp"
+                android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/base_text_bottom_hx_blue"
                 android:text="登录"/>
@@ -58,7 +58,7 @@
             <TextView
                 android:id="@+id/registerT"
                 style="@style/login_text_noselect"
-                android:layout_width="48dp"
+                android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:text="注册"/>
 

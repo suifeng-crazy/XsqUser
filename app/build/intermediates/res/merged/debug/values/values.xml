@@ -157,6 +157,7 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+    <color name="mcolor_orange">#f87a01</color>
     <color name="neibuHuiSe">#f2f2f2</color>
     <color name="neibuHuiSe2">#efeeee</color>
     <color name="notification_action_color_filter">#ffffffff</color>
