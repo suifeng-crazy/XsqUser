@@ -177,7 +177,6 @@ public class HttpGetOrPost {
             result = EntityUtils.toString(response.getEntity());
             //Application.logMessage("http post:" + result.toString());
         } catch (Exception e) {
-
             e.printStackTrace();
             return null;
         }

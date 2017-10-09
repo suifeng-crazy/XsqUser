@@ -299,6 +299,7 @@ public class MainActivity extends BaseActivity {
                         toastMessage(MainActivity.this, NumberUtil.strError);
                     }
                 }
+                break;
                 case STATUS_MORE:{
                     if(isGetRegTrue){
                         Intent intent = new Intent();
