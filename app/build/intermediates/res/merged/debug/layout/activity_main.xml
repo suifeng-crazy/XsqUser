@@ -221,7 +221,7 @@
                 android:layout_marginTop="15dp"
                 android:text="忘记密码?"
                 android:textColor="@color/colorGray"
-                android:textSize="10sp"/>
+                android:textSize="12sp"/>
 
             <TextView
                 android:id="@+id/login_changeLoginMath"
@@ -231,7 +231,7 @@
                 android:layout_alignTop="@id/login_forgetPasswrod"
                 android:text="@string/chang_longinMath"
                 android:textColor="@color/colorGray"
-                android:textSize="10sp"/>
+                android:textSize="12sp"/>
         </RelativeLayout>
 
 

@@ -155,14 +155,18 @@ public class HttpGetOrPost {
             throws UnsupportedEncodingException {
         //Application.logMessage("http post:" + Url);
         String result = "";
+        HttpGet request ;
         if (params == null) {
             params = "";
+            request = new HttpGet(Url );
+        }else{
+            request = new HttpGet(Url + "?" + params);
         }
         try {
 
             System.out.println(params.toString());
 //            HttpGet request = new HttpGet(Url + "?" + URLEncoder.encode(params.toString(), "utf-8"));
-            HttpGet request = new HttpGet(Url + "?" + params);
+
             DefaultHttpClient httpClient = new DefaultHttpClient();
 
             httpClient.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 15000);

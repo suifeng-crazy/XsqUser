@@ -3,6 +3,7 @@ package com.example.xsq.Me;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
@@ -72,10 +73,10 @@ public class MeMainActivity extends BaseActivity {
                 // 只有在未登录的状态下才会跳转 去登陆页面,否则跳转到 个人信息页面
                 if(NumberUtil.token.equals("")){
                     strActivity(MeMainActivity.this, MainActivity.class);
-                    finish();
+//                    finish();
                 }else{
                     strActivity(MeMainActivity.this, MeInfoActivity.class);
-                    finish();
+//                    finish();
                 }
                 break;
             case R.id.Me_setUpT:
@@ -129,5 +130,12 @@ public class MeMainActivity extends BaseActivity {
         }
     };
 
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode==KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0){
+            return onDoubleClickBackExit();
+        }
+        return super.onKeyDown(keyCode, event);
+    }
 
 }

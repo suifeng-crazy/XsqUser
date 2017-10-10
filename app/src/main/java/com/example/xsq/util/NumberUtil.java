@@ -121,4 +121,6 @@ public class NumberUtil {
     public static Map proviceMap ;
     public static boolean showDialog = true;
 
+    // 以下为新添加的
+    public static Boolean checkUpdate = true;  // 检测是否需要自动检测更新。
 }

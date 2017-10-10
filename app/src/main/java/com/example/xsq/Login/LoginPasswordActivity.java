@@ -14,6 +14,7 @@ import com.example.R;
 import com.example.xsq.Home.HomeActivity;
 import com.example.xsq.util.BaseActivity;
 import com.example.xsq.util.ConnectionAddress;
+import com.example.xsq.util.NumberUtil;
 import com.example.xsq.util.PostParma;
 
 /**
@@ -106,6 +107,7 @@ public class LoginPasswordActivity extends BaseActivity {
             switch (msg.what) {
                 case STATUS_CHECK:
                     if (isRegSuccess) {
+                        NumberUtil.baseBottomSelectUI = 1;
                         strActivity(LoginPasswordActivity.this, HomeActivity.class);
                         finish();
                     }

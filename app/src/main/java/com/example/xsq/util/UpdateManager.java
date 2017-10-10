@@ -24,6 +24,7 @@ import android.widget.Toast;
 
 import com.example.R;
 
+import org.apache.http.params.CoreConnectionPNames;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -223,7 +224,7 @@ public class UpdateManager {
         Builder builder = new Builder(mContext);
         builder.setTitle("有新的版本需要更新");
         builder.setMessage(updateMsg);
-        builder.setPositiveButton("下载", new OnClickListener() {
+        builder.setPositiveButton("更新", new OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -236,6 +237,8 @@ public class UpdateManager {
 
             @Override
             public void onClick(DialogInterface dialog, int which) {
+                // 增加 这段时间不再 提示更新。
+                NumberUtil.checkUpdate = false;
                 dialog.dismiss();
             }
         });
@@ -283,8 +286,11 @@ public class UpdateManager {
             try {
                 URL url = new URL(apkURL);
 
-                HttpURLConnection conn = (HttpURLConnection) url
-                        .openConnection();
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
+                conn.setDoOutput(true);
+                conn.setRequestMethod("POST");
                 conn.connect();
 
                 int length = conn.getContentLength();
@@ -319,8 +325,13 @@ public class UpdateManager {
                 fos.close();
                 is.close();
             } catch (MalformedURLException e) {
+//                getProgressDialog();
+//                Toast.makeText(mContext, "下载失败，请稍后再试", Toast.LENGTH_SHORT).show();
+                mHandler.sendEmptyMessage(999);
                 e.printStackTrace();
             } catch (IOException e) {
+//                Toast.makeText(mContext, "下载失败，请稍后再试", Toast.LENGTH_SHORT).show();
+                mHandler.sendEmptyMessage(999);
                 e.printStackTrace();
             }
         }
@@ -337,6 +348,11 @@ public class UpdateManager {
                 progressDialog.dismiss();
             }
             switch (msg.what) {
+                case 999:
+                    Toast.makeText(mContext, "下载失败，请稍后再试", Toast.LENGTH_SHORT).show();
+                    NumberUtil.checkUpdate = false;
+                    downLoadDialog.dismiss();
+                    break;
                 case MSG_GETLASTVERSION: // 获取最新版本信息
                     if (mUpdate != null) {
                         System.out.println("+_+_+_+_+_+_+" + currVersionCode
@@ -425,19 +441,35 @@ public class UpdateManager {
         String request = null;
         JSONObject jsonObject;
         try {
-            wxcpt = new WXBizMsgCrypt(NumberUtil.sToken, NumberUtil.sEncodingAESKey, NumberUtil.sCorpID);
+//            wxcpt = new WXBizMsgCrypt(NumberUtil.sToken, NumberUtil.sEncodingAESKey, NumberUtil.sCorpID);
+            System.out.println("请求地址："+checkVersionURL);
             request = HttpGetOrPost.getJsonHttpGetLin(checkVersionURL, null);
-            JSONArray array=new JSONArray(request);
-            String sMsg = wxcpt.DecryptMsg(array.getString(0), array.getString(1), array.getString(2), array.getString(3));
-            jsonObject = new JSONObject(sMsg);
-            System.out.println(sMsg);
-            if (!ParsingJsonString.parsing(jsonObject)) {
+            request = HttpGetOrPost.getJsonHttpGetLin(checkVersionURL, null);
+//            JSONArray array=new JSONArray(request);
+//            String sMsg = wxcpt.DecryptMsg(array.getString(0), array.getString(1), array.getString(2), array.getString(3));
+
+            jsonObject = new JSONObject(request);
+            System.out.println("版本检测返回："+request);
+//            if (!ParsingJsonString.parsing(jsonObject)) {
+//                return null;
+//            }
+
+            if(request == null ||request.equals("")){
+                ParsingJsonString.nowConnectBase();
                 return null;
             }
-            update.setPatchUrl(jsonObject.optString("url"));
-            update.setVersionName(jsonObject.optString("version"));
-            update.setVersionCode(jsonObject.optDouble("version"));
-            update.setStatus(jsonObject.optString("status"));
+            if(jsonObject.optBoolean("success")){
+                update.setPatchUrl(ConnectionAddress.BASE_FileAdress+jsonObject.optJSONObject("data").optString("FILE_URL"));
+                update.setApkURL(ConnectionAddress.BASE_FileAdress+jsonObject.optJSONObject("data").optString("FILE_URL"));
+                System.out.println("下载地址："+ConnectionAddress.BASE_FileAdress+jsonObject.optJSONObject("data").optString("FILE_URL"));
+                update.setVersionName(jsonObject.optJSONObject("data").optString("VERSION_TITLE"));
+                update.setVersionCode(jsonObject.optJSONObject("data").optDouble("MAX_VERSION"));
+            }else{
+                NumberUtil.strError = jsonObject.optString("message");
+                return null;
+            }
+
+//            update.setStatus(jsonObject.optString("status"));
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
             return null;
@@ -461,6 +493,16 @@ public class UpdateManager {
         private String patchUrl = ""; // 下载url
         private String status = "";// 状态值
 
+        private String apkURL = ""; // 下载的apk 的 URL
+
+
+        public String getApkURL() {
+            return apkURL;
+        }
+
+        public void setApkURL(String apkURL) {
+            this.apkURL = apkURL;
+        }
         public double getVersionCode() {
             return versionCode;
         }

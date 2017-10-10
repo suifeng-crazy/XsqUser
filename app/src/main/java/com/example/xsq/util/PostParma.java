@@ -143,8 +143,8 @@ public class PostParma {
     public static Boolean regUser(String userPhone, String mPasswrodF, String code,String math) throws Exception{
         JSONObject jsonObject;
         String newData = "";
-
         String request = "";
+        System.out.println("phe="+userPhone+"&code="+code+"&pwd="+mPasswrodF);
         if(math.equals("BindPhone")){
             newData = "phe="+userPhone+"&code="+code+"&pwd="+mPasswrodF;
             request = HttpGetOrPost.getJsonHttpGetLin(ConnectionAddress.Base_reg, newData);
@@ -168,6 +168,30 @@ public class PostParma {
         }else {
             NumberUtil.strError = jsonObject.optString("message");
             return false;
+        }
+    }
+
+    /**
+     * 获取 文件存储位置
+     * @param base_get_fileAddress
+     * @param file_server
+     */
+    public static void getFileAddress(String base_get_fileAddress, String file_server) throws Exception {
+        JSONObject jsonObject;
+        String newData = "key="+file_server;
+        String request = HttpGetOrPost.getJsonHttpGetLin(base_get_fileAddress, newData);
+        System.out.println("获取文件地址:"+request);
+        if(request == null ||request.equals("")){
+            ParsingJsonString.nowConnectBase();
+            return ;
+        }
+        jsonObject = new JSONObject(request);
+        if(jsonObject.optBoolean("success")){
+            ConnectionAddress.BASE_FileAdress = jsonObject.optString("data");
+            return ;
+        }else {
+            NumberUtil.strError = jsonObject.optString("message");
+            return ;
         }
     }
 }
