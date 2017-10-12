@@ -832,6 +832,7 @@
     <string name="xingming">姓名</string>
     <string name="xingnengwangzhe">性能王者</string>
     <string name="xiugaidenglumima">修改登录密码</string>
+    <string name="xiugaishoujihao">修改手机号</string>
     <string name="xiugaizhifumima">修改支付密码</string>
     <string name="xuantian">选填</string>
     <string name="xyb">下一步</string>
@@ -2522,13 +2523,13 @@
         <item name="android:layout_gravity">center_vertical</item>
     </style>
     <style name="dialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowFrame">@null</item><!--边框  -->
-        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
-        <item name="android:windowIsTranslucent">false</item><!--半透明-->
-        <item name="android:windowNoTitle">true</item><!--无标题-->
-        <item name="android:windowBackground">@color/touming</item><!--背景透明   去掉背景色边框也就去掉了 -->
-        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
-        <!-- <item name="android:windowContentOverlay">@null</item> -->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/touming</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        
     </style>
     <style name="home_car2_imgae">
         <item name="android:layout_width">75dp</item>

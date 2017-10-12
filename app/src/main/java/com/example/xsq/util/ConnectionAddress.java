@@ -54,4 +54,8 @@ public class ConnectionAddress {
     public static final String Base_Get_ChangePayPasGetPhoneCode = BASE_Adress+"/app/mg/inx/ucc/suppc";
     //使用手机号修改支付密码
     public static final String Base_Get_ChangePayPasByPhone = BASE_Adress+"/app/mg/inx/ucc/uppsms";
+    // 获取修改手机号的验证码
+    public static final String  BASE_Get_ChangePhoneGetCode = BASE_Adress+"/app/mg/inx/ucc/supc";
+    // 修改手机号
+    public static final String  BASE_Get_ChangePhone = BASE_Adress+"/app/mg/inx/ucc/up";
 }

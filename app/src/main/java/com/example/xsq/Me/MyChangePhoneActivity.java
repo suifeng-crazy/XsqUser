@@ -1,5 +1,8 @@
 package com.example.xsq.Me;
 
+import android.os.CountDownTimer;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,12 +12,19 @@ import android.widget.EditText;
 
 import com.example.R;
 import com.example.xsq.util.BaseActivity;
+import com.example.xsq.util.ConnectionAddress;
+import com.example.xsq.util.JsonStringMapUtil;
+import com.example.xsq.util.NumberUtil;
+import com.example.xsq.util.PostParma;
 
 public class MyChangePhoneActivity extends BaseActivity {
 
-    EditText mEdPhone,mEdPhoneCode;
-    Button mBtPhoneCode,mBtSubmit;
+    EditText mEdPhone, mEdPhoneCode;
+    Button mBtPhoneCode, mBtSubmit;
+    String mStPhone,mStPhoneCode;
+    Boolean mBoIsGetPhoneCode,mBoHasGetPhoneCode = false,mBoIsTrueChange;
     int mItRun;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,12 +48,93 @@ public class MyChangePhoneActivity extends BaseActivity {
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.ChangePhone_GetPhoneCodeT:
-
+                mStPhone = mEdPhone.getText().toString();
+                System.out.println("mStPhone:"+mStPhone);
+                if (mStPhone.equals("")) {
+                    toastMessageF("请输入正确的手机号");
+                } else {
+                    mItRun = 1;
+                    getCodeMeth();
+                    cachedThreadPool.execute(mRunnable);
+                }
                 break;
             case R.id.ChangePhone_SubmitT:
+                mStPhone = mEdPhone.getText().toString();
+                mStPhoneCode = mEdPhoneCode.getText().toString();
+                if (!mBoHasGetPhoneCode){
+                    toastMessageF("请先获取验证码");
+                }else if(mStPhoneCode.equals("")){
+                    toastMessageF("请输入验证码");
+                } else{
+                    mItRun = 2;
+                    cachedThreadPool.execute(mRunnable);
+                }
                 break;
         }
+    }
+
+    Runnable mRunnable = new Runnable() {
+        @Override
+        public void run() {
+            try {
+                switch (mItRun) {
+                    case 1: // 获取验证码
+                        mBoIsGetPhoneCode = PostParma.baseIsTrueFirstParam(ConnectionAddress.BASE_Get_ChangePhoneGetCode, mStPhone, "phe");
+                        if (mBoIsGetPhoneCode) {
+                            mHandler.sendEmptyMessage(STATUS_OK);
+                        } else {
+                            mHandler.sendEmptyMessage(STATUS_ERROR);
+                        }
+                        break;
+                    case 2: // 提交修改 手机号
+                        mBoIsTrueChange = PostParma.baseIsTrueSecondParam(ConnectionAddress.BASE_Get_ChangePhone,"phe", mStPhone ,"code",mStPhoneCode);
+                        if (mBoIsTrueChange) {
+                            mHandler.sendEmptyMessage(999);
+                        } else {
+                            mHandler.sendEmptyMessage(STATUS_ERROR);
+                        }
+                        break;
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    };
+
+    Handler mHandler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what){
+                case STATUS_OK:
+                    mBoHasGetPhoneCode = true;
+                    break;
+                case STATUS_ERROR:
+                    toastMessageF(NumberUtil.strError);
+                    break;
+                case 999:
+                    toastMessageF("修改成功");
+                    break;
+            }
+        }
+    };
+
+    public void getCodeMeth() {
+        /** 倒计时60秒，一次1秒 */
+        CountDownTimer timer = new CountDownTimer(60 * 1000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                // TODO Auto-generated method stub
+                mBtPhoneCode.setText(millisUntilFinished / 1000 + "秒后重发");
+                mBtPhoneCode.setClickable(false);
+            }
+
+            @Override
+            public void onFinish() {
+                mBtPhoneCode.setText("重新获取");
+                mBtPhoneCode.setClickable(true);
+            }
+        }.start();
     }
 }

@@ -640,7 +640,6 @@ public class JsonStringMapUtil {
 		Pattern p = Pattern.compile("[0-9]*");
 		Matcher m = p.matcher(userPhone);
 		if(m.matches() ){
-//			Toast.makeText(Main.this,"输入的是数字", Toast.LENGTH_SHORT).show();
 			if(userPhone.length() ==11 && userPhone.substring(0,1).equals("1"))
 			return true;
 		}

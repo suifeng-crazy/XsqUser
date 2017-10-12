@@ -347,4 +347,60 @@ public class PostParma {
             return 2;
         }
     }
+
+    /**
+     *  基础 方法，一个参数， 返回是否正确 的功能。
+     * @param base_get_changePhoneGetCode  请求接口路径
+     * @param mStPhone      传递的值
+     * @param phe           接口需要键值
+     * @return
+     * @throws Exception
+     */
+    public static Boolean baseIsTrueFirstParam(String base_get_changePhoneGetCode, String mStPhone, String phe)throws Exception {
+
+        JSONObject jsonObject;
+        String newData = "_t="+NumberUtil.token+"&"+phe+"="+mStPhone    ;
+        System.out.println("isChangeLoginPasGetPhoneCode newData:"+newData);
+        String request = HttpGetOrPost.getJsonHttpGetLin(base_get_changePhoneGetCode, newData);
+        System.out.println("isChangeLoginPasGetPhoneCode 获取手机验证码:"+request);
+        if(request == null ||request.equals("")){
+            ParsingJsonString.nowConnectBase();
+            return false;
+        }
+        jsonObject = new JSONObject(request);
+        if(jsonObject.optBoolean("success")){
+            return true;
+        }else {
+            NumberUtil.strError = jsonObject.optString("message");
+            return false;
+        }
+    }
+
+    /**
+     * 基础 方法，两个参数， 返回是否正确 的功能。
+     * @param connAddress 请求接口路径
+     * @param firstKey
+     * @param firstValue
+     * @param secondKey
+     * @param secondValue
+     * @return
+     */
+    public static Boolean baseIsTrueSecondParam(String connAddress, String firstKey, String firstValue, String secondKey, String secondValue) throws  Exception {
+        JSONObject jsonObject;
+        String newData = "_t="+NumberUtil.token+"&"+firstKey+"="+firstValue+"&"+secondKey+"="+secondValue;
+        System.out.println("isChangeLoginPasGetPhoneCode newData:"+newData);
+        String request = HttpGetOrPost.getJsonHttpGetLin(connAddress, newData);
+        System.out.println("isChangeLoginPasGetPhoneCode 获取手机验证码:"+request);
+        if(request == null ||request.equals("")){
+            ParsingJsonString.nowConnectBase();
+            return false;
+        }
+        jsonObject = new JSONObject(request);
+        if(jsonObject.optBoolean("success")){
+            return true;
+        }else {
+            NumberUtil.strError = jsonObject.optString("message");
+            return false;
+        }
+    }
 }
