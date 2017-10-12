@@ -36,4 +36,22 @@ public class ConnectionAddress {
     public static final String Base_MeMain= BASE_Adress+"/app/mg/inx/ucc/inf";
     //获取 文件基础地址
     public static final String Base_Get_FileAddress= BASE_Adress+"/app/hm/inx/apv/cnf";
+    //使用原密码修改登录密码
+    public static final String Base_Get_ChangeLoginPasByBeforPas = BASE_Adress+"/app/mg/inx/ucc/uppd";
+    //使用手机号修改登录密码获取手机验证码
+    public static final String Base_Get_ChangeLoginPasGetPhoneCode = BASE_Adress+"/app/mg/inx/ucc/sulpc";
+    //使用手机号修改登录密码
+    public static final String Base_Get_ChangeLoginPasByPhone = BASE_Adress+"/app/mg/inx/ucc/ulpbs";
+    // 保存会员基本信息(头像,昵称,性别,个性签名等)
+    public static final String  Base_Get_ChangeNickName = BASE_Adress+"/app/mg/inx/ucc/sbm";
+    // 设置支付密码
+    public static final String Base_Get_SetPayPas = BASE_Adress+"/app/mg/inx/ucc/spp";
+    // 检测是否设置过支付密码
+    public static final String  Base_Get_CheckIsSetPayPas = BASE_Adress+"/app/mg/inx/ucc/hpp";
+    //使用原密码修改支付密码
+    public static final String Base_Get_ChangePayPasByBeforPas = BASE_Adress+"/app/mg/inx/ucc/upp";
+    //使用手机号修改支付密码获取手机验证码
+    public static final String Base_Get_ChangePayPasGetPhoneCode = BASE_Adress+"/app/mg/inx/ucc/suppc";
+    //使用手机号修改支付密码
+    public static final String Base_Get_ChangePayPasByPhone = BASE_Adress+"/app/mg/inx/ucc/uppsms";
 }

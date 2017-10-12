@@ -115,7 +115,7 @@ public class MeMainActivity extends BaseActivity {
                         mTvSumMoney.setText(user.getUserMoney().toString());
                         mTvRedMoney.setText(user.getUserRedMoney().toString());
                         mTvGodMoney.setText(user.getUserGod().toString());
-
+                        NumberUtil.user = user;
                         // 设置 用户头像展示。 这个需要做优化，
 //                        try {
 //                             url = new URL(ConnectionAddress.BASE_Adress+user.getUserHeaderImage())

@@ -1,5 +1,7 @@
 package com.example.xsq.util;
 
+import com.example.xsq.Ent.User;
+
 import java.util.List;
 import java.util.Map;
 
@@ -123,4 +125,6 @@ public class NumberUtil {
 
     // 以下为新添加的
     public static Boolean checkUpdate = true;  // 检测是否需要自动检测更新。
+    public static User user;
+    public static String userID;  // 登录后直接获取， 后期再添加到 user 里面即可。
 }

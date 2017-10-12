@@ -8,6 +8,13 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 允许对sd卡进行读写操作 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 存储读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <!-- 上面是百度定位用到的权限 -->
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
@@ -26,19 +33,21 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:largeHeap="true"
-        android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
         <activity android:name=".xsq.Login.MainActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
 
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".xsq.Login.Login"
@@ -61,7 +70,6 @@
         <activity android:name=".xsq.ServerItem.ServierMainActivity">
         </activity>
         <activity android:name=".xsq.Me.MeMainActivity">
-
         </activity>
 
         <!-- 百度定位功能使用  title_activity_yin_dao -->
@@ -91,6 +99,16 @@
         <activity android:name=".xsq.Me.MyCarAddCarActivity">
         </activity>
         <activity android:name=".xsq.Me.OrderMessageActivity">
+        </activity>
+        <activity android:name=".xsq.Me.MyChangeLoginPasswordActivity">
+        </activity>
+        <activity android:name=".xsq.Me.MyChangePayPasswordActivity">
+        </activity>
+        <activity android:name=".xsq.Me.MyChangeNiceNameActivity">
+        </activity>
+        <activity android:name=".xsq.Me.MyRealNameActivity">
+        </activity>
+        <activity android:name=".xsq.Me.MyChangePhoneActivity">
         </activity>
     </application>
 

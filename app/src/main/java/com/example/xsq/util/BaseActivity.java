@@ -295,6 +295,13 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
         }
     }
 
+
+    protected void toastMessageF( String str) {
+        toastMessage(this,str, Toast.LENGTH_LONG);
+        if(NumberUtil.strErrorNum == 10007 || NumberUtil.strErrorNum ==105|| NumberUtil.strErrorNum ==109) {
+            strActivity(this, MainActivity.class, true, true);
+        }
+    }
     /**
      * 快速提示
      * @param context

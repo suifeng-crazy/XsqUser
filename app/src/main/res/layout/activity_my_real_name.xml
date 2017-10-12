@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xsq.Me.MyRealNameActivity"
+    android:orientation="vertical">
+
+    <!--  修改登录密码页面 顶部 -->
+    <LinearLayout
+        android:id="@+id/ChangeLoginPas_topR"
+        style="@style/base_title_white">
+
+        <Button
+            android:id="@+id/ChangeRealName_cancel"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:text="取消"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/text_14"/>
+
+        <TextView
+            style="@style/base_title_text_red"
+            android:text="修改真实姓名"
+            android:layout_weight="1"
+            android:textColor="@color/textblack"/>
+        <Button
+            android:id="@+id/ChangeRealName_save"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="保存"
+            android:background="@color/colorWhite"
+            android:textColor="@color/textblack"
+            android:textSize="@dimen/text_14"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ChangeRealName_newRealNameE"
+        style="@style/base_changeInfo_EditText"
+        android:hint="@string/qingshurunicheng"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:text="真实姓名为1-8个字符"
+        android:textColor="@color/mcolor_textHui"
+        android:textSize="@dimen/text_12"/>
+</LinearLayout>

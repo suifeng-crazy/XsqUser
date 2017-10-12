@@ -129,14 +129,14 @@
 
     <!--进入下一页灰色小箭头 根据 个人中心里面的修改， -->
     <style name="intoNextPage_arrow_gray_small2">
-        <item name="android:layout_width">9dp</item>
+        <item name="android:layout_width">8dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:scaleType">centerInside</item>
         <item name="android:src">@drawable/arrow_whitesmork</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_alignParentRight">true</item>
-        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginRight">16dp</item>
     </style>
     <!--进入下一页灰色小箭头 根据 个人中心里面的修改， -->
     <style name="base_arrow_gray_small">
@@ -237,7 +237,7 @@
         <item name="android:layout_centerVertical">true</item>
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:scaleType">fitXY</item>
-        <item name="android:src">@drawable/base_back_image</item>
+        <item name="android:src">@drawable/arrow_top_leave</item>
     </style>
     <!-- 页面标题（黑色，） 有返回图片的-->
     <style name="base_title_text_red">
@@ -247,8 +247,8 @@
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:gravity">center</item>
         <item name="android:maxLines">1</item>
-        <item name="android:textColor">@color/colorblack</item>
-        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/textblack</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <!--推荐购车页面 内部文字样式-->
@@ -267,7 +267,21 @@
         <item name="android:textSize">@dimen/text_14</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:textColor">#333333</item>
     </style>
+
+    <!--设置页面 内部文字样式 (根据 推荐才内部横线样式修改，两个都应改为这样）-->
+    <style name="setUp_Huisetext">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
     <!--推荐购车页面 内部输入框样式-->
     <style name="home_recommdeBuy_edit">
         <item name="android:layout_height">wrap_content</item>
@@ -291,7 +305,7 @@
     <style name="setUp_henxianV">
         <item name="android:layout_height">1dp</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:background">@color/colorGray</item>
+        <item name="android:background">#E6E6E6</item>
         <item name="android:layout_alignParentBottom">true</item>
     </style>
 
@@ -335,9 +349,9 @@
     <!--设置页面 每个一行 R 的样式-->
     <style name="base_setUp_RelativeLayout">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_height">43dp</item>
         <item name="android:background">@color/colorWhite</item>
-        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingLeft">16dp</item>
     </style>
     <!--选车页面 热门推荐下面 文字样式-->
     <style name="carMain_hotselect">
@@ -398,5 +412,31 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">16sp</item>
         <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <!--修改个人信息 等用的输入框-->
+    <style name="base_changeInfo_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:background">@drawable/mxml_left_bottom_thred</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textblack</item>
+        <item name="android:textColorHint">#cccccc</item>
+    </style>
+    <!--修改个人信息 输入验证码 等用的输入框-->
+    <style name="base_changeInfogetCode_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:background">@drawable/mxml_left_bottom_thred</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">#cccccc</item>
     </style>
 </resources>

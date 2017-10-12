@@ -29,24 +29,29 @@
             <RelativeLayout
                 android:id="@+id/myInfo_headIR"
                 style="@style/base_setUp_RelativeLayout"
-                android:layout_marginTop="20dp"
-                android:layout_height="70dp">
+                android:layout_height="87dp"
+                android:layout_marginTop="20dp">
+
                 <TextView
                     style="@style/setUp_text"
                     android:text="@string/touxiang"/>
+
                 <ImageView
                     android:id="@+id/myInfo_headImageArrow"
                     style="@style/intoNextPage_arrow_gray_small2"/>
+
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="44dp"
                     android:layout_height="match_parent"
-                    android:layout_toLeftOf="@id/myInfo_headImageArrow"
                     android:layout_marginRight="20dp"
+                    android:layout_toLeftOf="@id/myInfo_headImageArrow"
                     android:scaleType="centerInside"
-                    android:src="@drawable/first_first_selected"/>
+                    android:src="@drawable/myheader"/>
+
                 <View
                     style="@style/setUp_henxianV"/>
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/myInfo_phoneR"
                 style="@style/base_setUp_RelativeLayout">
@@ -60,7 +65,7 @@
 
                 <TextView
                     android:id="@+id/MyInfo_phoneT"
-                    style="@style/setUp_text"
+                    style="@style/setUp_Huisetext"
                     android:layout_toLeftOf="@id/myInfo_phoneImage"
                     android:layout_marginRight="20dp"
                     android:text="@string/shoujihao"/>
@@ -77,7 +82,7 @@
                     android:id="@+id/myInfo_nikeNameI"
                     style="@style/intoNextPage_arrow_gray_small2"/>
                 <TextView
-                    style="@style/setUp_text"
+                    style="@style/setUp_Huisetext"
                     android:layout_toLeftOf="@id/myInfo_nikeNameI"
                     android:layout_marginRight="20dp"
                     android:text="@string/nicheng"/>
@@ -94,7 +99,7 @@
                     android:id="@+id/myInfo_sexI"
                     style="@style/intoNextPage_arrow_gray_small2"/>
                 <TextView
-                    style="@style/setUp_text"
+                    style="@style/setUp_Huisetext"
                     android:layout_toLeftOf="@id/myInfo_sexI"
                     android:layout_marginRight="20dp"
                     android:text="@string/xingming"/>
@@ -134,12 +139,12 @@
             <TextView
                 android:id="@+id/myInfo_threeT"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="20dp"
                 android:text="@string/dangqianbangdingdedisanfang"
                 android:gravity="center"
                 android:layout_marginLeft="20dp"
                 android:textSize="@dimen/text_11"
-                android:textColor="@color/colorGray"/>
+                android:textColor="#999999"/>
             <RelativeLayout
                 android:id="@+id/myInfo_WXR"
                 style="@style/base_setUp_RelativeLayout">
@@ -187,10 +192,10 @@
                     android:id="@+id/myInfo_recommdeI"
                     style="@style/intoNextPage_arrow_gray_small2"/>
                 <TextView
-                    style="@style/setUp_text"
+                    style="@style/setUp_Huisetext"
                     android:layout_toLeftOf="@id/myInfo_recommdeI"
                     android:layout_marginRight="20dp"
-                    android:text="@string/tuijianren"/>
+                    android:text="Myzk458xL"/>
                 <View
                     style="@style/setUp_henxianV"/>
             </RelativeLayout>

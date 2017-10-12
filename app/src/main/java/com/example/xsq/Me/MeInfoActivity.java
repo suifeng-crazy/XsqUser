@@ -3,6 +3,7 @@ package com.example.xsq.Me;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.don.library.activity.BindActivityLib;
@@ -14,35 +15,38 @@ import com.example.xsq.util.BaseActivity;
 
 public class MeInfoActivity extends BaseActivity {
 
+    RelativeLayout mReChangePhone,mReNickName,mReRealName;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_me_info);
+
+        initUI();
     }
 
-//    @Override
-//    protected int getContentView() {
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        return R.layout.activity_me_info;
-//    }
-//
-//    @Override
-//    protected void bindListener() {
-//        mTvPhone.setOnClickListener(this);
-//    }
-//
-//    @Override
-//    protected void init() {
-//        mTvPhone.setText("SSSSSSSSSSSSSSSS");
-//    }
-//
-//    @Override
-//    public void onClick(View view) {
-//        switch (view.getId()){
-//            case R.id.MyInfo_phoneT:
-//                mTvPhone.setText("zzzzzzzzzzzzz");
-//                break;
-//        }
-//    }
+    private void initUI() {
+        mReRealName = findViewById(R.id.myInfo_realNameR);
+        mReNickName = findViewById(R.id.myInfo_nickNameR);
+        mReChangePhone = findViewById(R.id.myInfo_phoneR);
+        mReChangePhone.setOnClickListener(this);
+        mReNickName.setOnClickListener(this);
+        mReRealName.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.myInfo_realNameR:
+                strActivity(MeInfoActivity.this,MyRealNameActivity.class);
+                break;
+            case R.id.myInfo_phoneR:
+                
+                break;
+            case R.id.myInfo_nickNameR:
+                strActivity(MeInfoActivity.this,MyChangeNiceNameActivity.class);
+                break;
+        }
+    }
 }

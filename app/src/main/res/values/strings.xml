@@ -125,6 +125,15 @@
     <string name="remenhuodong">热门活动</string>
     <string name="wodekabao">我的卡包</string>
     <string name="yaoqingyouli">邀请有礼</string>
+    <string name="denglumima">登录密码</string>
+    <string name="qingquerenxinmima">请确认新密码</string>
+    <string name="qingshuruxinmima">请输入新密码</string>
+    <string name="qingshuruyuanmima">请输入原密码</string>
+    <string name="huoquyanzhengma">获取验证码</string>
 
-
+    <string name="yuanmimaxiugai">原密码修改</string>
+    <string name="shoujiyanzhengmaxiugai">手机验证码修改</string>
+    <string name="zhifumima">支付密码</string>
+    <string name="qingshurunicheng">请输入昵称</string>
+    <string name="xiugaishoujihao">修改手机号</string>
 </resources>

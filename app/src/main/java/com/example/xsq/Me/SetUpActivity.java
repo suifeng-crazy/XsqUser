@@ -4,6 +4,7 @@ package com.example.xsq.Me;
  * 设置页面
  */
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +22,7 @@ import com.example.xsq.util.UpdateManager;
 public class SetUpActivity extends BaseActivity {
     UpdateManager mUpdateManager;
     TextView mTvOut;
-    RelativeLayout mReSetUp;
+    RelativeLayout mReEdt,mReLoginPas,mRePayPas;
     ImageView mImOut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,17 +35,27 @@ public class SetUpActivity extends BaseActivity {
 
     private void initUI() {
         mTvOut = findViewById(R.id.setUp_outT);
-        mReSetUp = findViewById(R.id.setUp_editR);
+        mReEdt = findViewById(R.id.setUp_editR);
         mImOut = findViewById(R.id.setUp_topI);
+        mReLoginPas = findViewById(R.id.setUp_loginPR);
+        mRePayPas = findViewById(R.id.setUp_payPR);
 
+        mRePayPas.setOnClickListener(this);
+        mReLoginPas.setOnClickListener(this);
         mTvOut.setOnClickListener(this);
-        mReSetUp.setOnClickListener(this);
+        mReEdt.setOnClickListener(this);
         mImOut.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
        switch (v.getId()){
+           case R.id.setUp_loginPR:
+               strActivity(SetUpActivity.this,MyChangeLoginPasswordActivity.class);
+               break;
+           case R.id.setUp_payPR:
+               strActivity(SetUpActivity.this,MyChangePayPasswordActivity.class);
+               break;
            case R.id.setUp_editR:
                updateApp();// 检查更新app
                break;

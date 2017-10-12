@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xsq.Me.MyChangePhoneActivity"
+    android:orientation="vertical"
+    android:background="#f2f2f2">
+
+    <!--  修改登录密码页面 顶部 -->
+    <RelativeLayout
+        android:id="@+id/ChangePhone_topR"
+        style="@style/base_title_white">
+        <ImageView
+            android:id="@+id/ChangePhone_topI"
+            style="@style/base_title_image"/>
+        <TextView
+            style="@style/base_title_text_red"
+            android:text="@string/xiugaishoujihao"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ChangePhone_BeforPasE"
+        style="@style/base_changeInfo_EditText"
+        android:hint="@string/qingshurushoujihao"/>
+
+    <LinearLayout
+        android:id="@+id/ChangePhone_PhoneCodeL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/ChangePhone_PhoneCodeE"
+            style="@style/base_changeInfogetCode_EditText"
+            android:layout_weight="1"
+            android:hint="@string/login_qsryzm"/>
+
+        <Button
+            android:id="@+id/ChangePhone_GetPhoneCodeT"
+            android:layout_width="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_height="40dp"
+            android:text="@string/huoquyanzhengma"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/text_14"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ChangePhone_SubmitT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tijiao"
+        android:background="@drawable/mxml_radius_hot"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"/>
+</LinearLayout>

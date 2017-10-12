@@ -251,17 +251,36 @@ public class MainActivity extends BaseActivity {
                     } else {
                         resStatus = PostParma.getToken("_a=" + userName, "_c=" + login_phoneCodeI.getText().toString());
                     }
-                    mHandler.sendEmptyMessage(STATUS_CHECK);
+                    if(resStatus==0){
+                        mHandler.sendEmptyMessage(STATUS_ERROR);
+                    }else {
+                        mHandler.sendEmptyMessage(STATUS_CHECK);
+                    }
+//                    mHandler.sendEmptyMessage(STATUS_CHECK);
                 } else if (i == 1) {
                     // 获取短信验证码，登陆用
                     isGetTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_PhoneLoginCode, userName);
-                    mHandler.sendEmptyMessage(888);
+                    if(!isGetTrue){
+                        mHandler.sendEmptyMessage(STATUS_ERROR);
+                    }else {
+                        mHandler.sendEmptyMessage(888);
+                    }
                 } else if (i == 2) {  // 获取短信验证码，注册用
                     isGetRegTrue = PostParma.getPhoneCode(ConnectionAddress.Base_Get_PhoneCode, userName);
-                    mHandler.sendEmptyMessage(999);
+                    if(!isGetRegTrue){
+                        mHandler.sendEmptyMessage(STATUS_ERROR);
+                    }else {
+                        mHandler.sendEmptyMessage(999);
+                    }
                 } else if (i == 4) {
                     isGetRegTrue = PostParma.isTruePhoneCode(ConnectionAddress.Base_IsTrue_PhoneCode, userName, login_phoneCodeI.getText().toString());
-                    mHandler.sendEmptyMessage(STATUS_MORE);
+                    if(!isGetRegTrue){
+                        mHandler.sendEmptyMessage(STATUS_ERROR);
+                    }else{
+                        mHandler.sendEmptyMessage(STATUS_MORE);
+                    }
+
+
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -274,6 +293,9 @@ public class MainActivity extends BaseActivity {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
+                case STATUS_ERROR:
+                    toastMessage(MainActivity.this, NumberUtil.strError);
+                    break;
                 case 888:
                     if (!isGetTrue) {
                         toastMessage(MainActivity.this, NumberUtil.strError);

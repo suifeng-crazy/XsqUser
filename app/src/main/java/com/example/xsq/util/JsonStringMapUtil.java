@@ -311,15 +311,6 @@ public class JsonStringMapUtil {
 		System.out.println(x);
 	}
 
-//	public boolean isNumeric(String str){
-//		Pattern pattern = Pattern.compile("[0-9]*");
-//		Matcher isNum = pattern.matcher(str);
-//		if( !isNum.matches() ){
-//			return false;
-//		}
-//		return true;
-//	}
-
 	/**
 	 * 金额 从分转换为 元为单位的。
 	 */
@@ -455,15 +446,6 @@ public class JsonStringMapUtil {
 				orderSta = "已取消";
 				break;
 			case 8:
-//				if($order['total_num'] == $order['use_num']){
-//					return '交易完成';
-//				}else{
-//					if($more === true){
-//						return '部分完成 - 已用 '.$order['use_num'].' 份，已退 ' + $order['refund_num'].' 份';
-//					}else{
-//						return '部分完成';
-//					}
-//				}
 				orderSta = "已完成";
 				break;
 			case 9:

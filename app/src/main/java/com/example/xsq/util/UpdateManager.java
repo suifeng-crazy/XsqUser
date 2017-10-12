@@ -285,12 +285,15 @@ public class UpdateManager {
         public void run() {
             try {
                 URL url = new URL(apkURL);
-
+                System.out.println("apk下载地址urlapk下载地址urlapk下载地址urlapk下载地址urlapk下载地址url");
+                System.out.println("apk下载地址url"+"http://192.168.1.21/group1/M00/00/00/wKgBFVnd28iAMt9FAH8NabyOdxA955.apk");
+                System.out.println("apk下载地址url"+"http://192.168.1.21/group1/M00/00/00/wKgBFVnd28iAMt9FAH8NabyOdxA955.apk");
+                System.out.println("apk下载地址url"+apkURL);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setConnectTimeout(5000);
-                conn.setReadTimeout(5000);
-                conn.setDoOutput(true);
-                conn.setRequestMethod("POST");
+                conn.setConnectTimeout(35000);
+                conn.setReadTimeout(35000);
+//                conn.setDoOutput(true);
+//                conn.setRequestMethod("POST");
                 conn.connect();
 
                 int length = conn.getContentLength();

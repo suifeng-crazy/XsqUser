@@ -19,6 +19,15 @@ public class User {
     public String userRecommedMen; // 推荐人编码（推荐他的人）
     public String userRecommedCode; // 推荐编码
     public String userHeaderImage;
+    public String userID;
+
+    public String getUserID() {
+        return userID;
+    }
+
+    public void setUserID(String userID) {
+        this.userID = userID;
+    }
 
     public String getUserHeaderImage() {
         return userHeaderImage;
