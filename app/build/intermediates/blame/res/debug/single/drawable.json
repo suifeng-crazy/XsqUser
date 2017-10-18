@@ -56,12 +56,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\password.png"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jifengrenwu.png",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\jifengrenwu.png"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\order_over.png",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\order_over.png"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jifengrenwu.png",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\jifengrenwu.png"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
@@ -208,16 +208,16 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\carmain_hotselect.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\collect_select.png",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\collect_select.png"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\collect_select.png",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\collect_select.png"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",

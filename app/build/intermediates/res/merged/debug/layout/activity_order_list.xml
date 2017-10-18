@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.suifeng.xsq.xsq.Me.OrderListActivity"
+    tools:context="com.example.xsq.My.OrderListActivity"
     android:background="@color/beijingse">
 
     <!--  订单列表页面 顶部 -->

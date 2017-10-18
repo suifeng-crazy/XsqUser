@@ -32,12 +32,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_nice_name.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_change_nice_name.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\b7f714cc60f6175d0aee8afbfa1d162375c9a029\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_recommed_buy.xml",
@@ -92,6 +92,10 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_car.xml"
     },
     {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_abuout_us.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_abuout_us.xml"
+    },
+    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_phone.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_change_phone.xml"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_sex.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_change_sex.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_password.xml",
@@ -194,6 +202,10 @@
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_popup_select_pic.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\base_popup_select_pic.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_message.xml",
@@ -316,12 +328,12 @@
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_set_up.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_servier_main.xml",
-        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_servier_main.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_real_name.xml",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_my_real_name.xml"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_servier_main.xml",
+        "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\layout\\activity_servier_main.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",

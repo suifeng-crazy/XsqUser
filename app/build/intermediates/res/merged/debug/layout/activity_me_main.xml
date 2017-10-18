@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/beijingse"
-    tools:context="com.example.xsq.Me.MeMainActivity">
+    tools:context="com.example.xsq.My.MyMainActivity">
 
     <!--下面是底部导航栏-->
     <LinearLayout
@@ -54,24 +54,24 @@
                 android:textColor="@color/colorWhite"
                 android:textSize="@dimen/text_ruleSize"/>
 
-            <ImageView
-                android:id="@+id/Me_touXiangIM"
+            <com.example.xsq.util.ImageViewUtil.CircleImageView
+                android:id="@+id/Me_headerIm"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="40dp"
-                android:adjustViewBounds="true"
-                android:scaleType="fitXY"
                 android:src="@drawable/myheader"/>
+            <!--android:scaleType="fitXY"
+            android:adjustViewBounds="true"-->
 
             <TextView
                 android:id="@+id/Me_userNameT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignTop="@id/Me_touXiangIM"
+                android:layout_alignTop="@id/Me_headerIm"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:layout_toRightOf="@id/Me_touXiangIM"
+                android:layout_toRightOf="@id/Me_headerIm"
                 android:text="@string/weidenglong"
                 android:textColor="@color/colorWhite"
                 android:textSize="@dimen/text_bigSize"/>
@@ -80,7 +80,7 @@
                 android:id="@+id/Me_userGrade"
                 android:layout_width="70dp"
                 android:layout_height="20dp"
-                android:layout_alignBottom="@id/Me_touXiangIM"
+                android:layout_alignBottom="@id/Me_headerIm"
                 android:layout_marginBottom="3dp"
                 android:layout_alignLeft="@id/Me_userNameT"
                 android:background="@drawable/shape_yellow"

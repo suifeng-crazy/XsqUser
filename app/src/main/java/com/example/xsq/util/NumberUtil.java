@@ -1,5 +1,7 @@
 package com.example.xsq.util;
 
+import android.graphics.Bitmap;
+
 import com.example.xsq.Ent.User;
 
 import java.util.List;
@@ -127,4 +129,5 @@ public class NumberUtil {
     public static Boolean checkUpdate = true;  // 检测是否需要自动检测更新。
     public static User user;
     public static String userID;  // 登录后直接获取， 后期再添加到 user 里面即可。
+    public static Bitmap UserHeaderImageBitmap = null ;  // 用户上传头像后，回退直接返回， 不要再请求一次
 }

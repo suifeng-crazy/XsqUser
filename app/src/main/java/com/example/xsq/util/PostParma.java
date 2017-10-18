@@ -120,15 +120,39 @@ public class PostParma {
             User user = new User();
             JSONObject jsonData = jsonObject.optJSONObject("data");
             user.setUserPhone(jsonData.optString("PHONE"));
-            user.setUserSex(jsonData.optString("SEX"));
-            user.setUserRealName(jsonData.optString("REAL_NAME"));
-            user.setUserMoney(jsonData.optDouble("PURSE_BALANCE"));
+
+            if(jsonData.optString("SEX") == null || jsonData.optString("SEX").equals("null")){
+                user.setUserSex("");
+            }else if (jsonData.optString("SEX").equals("0")){
+                user.setUserSex("男");
+            }else {
+                user.setUserSex("女");
+            }
+
+            if(jsonData.optString("REAL_NAME") != null && !jsonData.optString("REAL_NAME").equals("null")){
+                user.setUserRealName(jsonData.optString("REAL_NAME"));
+            }else{
+                user.setUserRealName("");
+            }
+            if(jsonData.optString("PURSE_BALANCE") != null &&!jsonData.optString("PURSE_BALANCE").equals("null")){
+                user.setUserMoney(jsonData.optDouble("PURSE_BALANCE"));
+            }else{
+                user.setUserMoney(0.00);
+            }
+            if(jsonData.optString("AVATAR_PATH") != null &&!jsonData.optString("AVATAR_PATH").equals("null")){
+                user.setUserHeaderImage(jsonData.optString("AVATAR_PATH"));
+            }else{
+                user.setUserHeaderImage("");
+            }
             user.setUserGod(jsonData.optDouble("GOLD_BALANCE"));
-            user.setUserHeaderImage(jsonData.optString("AUTOGRAPH"));
+            user.setUserSign(jsonData.optString("AUTOGRAPH"));
             user.setUserRedMoney(jsonData.getDouble("VOUCHER_BALANCE"));
+            user.setUserID(jsonData.getString("ID"));
+
+
             return user;
         }else {
-            NumberUtil.token = "";
+            NumberUtil.token = " ";
             NumberUtil.strError = jsonObject.optString("message");
             return null;
         }
@@ -403,4 +427,35 @@ public class PostParma {
             return false;
         }
     }
+
+    /**
+     * 基础方法，可根据 传递参数不同，来确定得到正确结果后的操作方式。
+     * 获取 关于我们信息
+     * @param base_get_fileAddress 获取地址， 这个应该是统一的。
+     * @param file_server           获取目标参数， 同时根据这个来判断 success 后的执行方法。
+     * @return
+     */
+    public static String baseGetBaseInfo(String base_get_fileAddress, String file_server) throws Exception {
+        JSONObject jsonObject;
+        String newData = "key="+file_server;
+        String request = HttpGetOrPost.getJsonHttpGetLin(base_get_fileAddress, newData);
+        System.out.println("获取文件地址:"+request);
+        return request;
+//        if(request == null ||request.equals("")){
+//            ParsingJsonString.nowConnectBase();
+//            return false;
+//        }
+//        jsonObject = new JSONObject(request);
+//        if(jsonObject.optBoolean("success")){
+//            if(file_server.equals("ABOUT_US")){
+//                ConnectionAddress.BASE_AbuoutUs_Address = jsonObject.optString("data");
+//            }
+//
+//            return true;
+//        }else {
+//            NumberUtil.strError = jsonObject.optString("message");
+//            return false;
+//        }
+    }
+
 }

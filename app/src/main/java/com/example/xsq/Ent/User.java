@@ -1,11 +1,13 @@
 package com.example.xsq.Ent;
 
+import com.don.library.json.annotation.Name;
+
 /**
  * Created by suifeng on 2017/9/28.
  */
 
 public class User {
-    public String userName;
+    public String userName ;
     public String userPhone;
     public Double userMoney;
     public Double userRedMoney;
@@ -20,6 +22,23 @@ public class User {
     public String userRecommedCode; // 推荐编码
     public String userHeaderImage;
     public String userID;
+
+    public User() {
+        this.userName = "";
+        this.userPhone = "";
+        this.userMoney = 0.00;
+        this.userRedMoney = 0.00;
+        this.userGod = 0.00;
+        this.userNickName = "";
+        this.userSex = "";
+        this.userRealName = "";
+        this.userSign = "";
+        this.userAddress = "";
+        this.userRecommedMen = "";
+        this.userRecommedCode = "";
+        this.userHeaderImage = "";
+        this.userID = "";
+    }
 
     public String getUserID() {
         return userID;
@@ -132,4 +151,5 @@ public class User {
     public void setUserRecommedCode(String userRecommedCode) {
         this.userRecommedCode = userRecommedCode;
     }
+
 }

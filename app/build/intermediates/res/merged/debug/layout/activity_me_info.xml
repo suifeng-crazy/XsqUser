@@ -25,12 +25,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
+            <View
+                style="@style/setUp_henxianV"/>
+            <View
+                style="@style/setUp_henxianV"
+                android:layout_marginTop="20dp"/>
             <RelativeLayout
                 android:id="@+id/myInfo_headIR"
                 style="@style/base_setUp_RelativeLayout"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp">
+                android:layout_height="87dp">
 
                 <TextView
                     style="@style/setUp_text"
@@ -40,14 +43,14 @@
                     android:id="@+id/myInfo_headImageArrow"
                     style="@style/intoNextPage_arrow_gray_small2"/>
 
-                <ImageView
+                <com.example.xsq.util.ImageViewUtil.CircleImageView
+                    android:id="@+id/myInfo_headerI"
                     android:layout_width="44dp"
                     android:layout_height="match_parent"
                     android:layout_marginRight="20dp"
                     android:layout_toLeftOf="@id/myInfo_headImageArrow"
-                    android:scaleType="centerInside"
                     android:src="@drawable/myheader"/>
-
+                <!--android:scaleType="centerInside"-->
                 <View
                     style="@style/setUp_henxianV"/>
             </RelativeLayout>
@@ -82,6 +85,7 @@
                     android:id="@+id/myInfo_nikeNameI"
                     style="@style/intoNextPage_arrow_gray_small2"/>
                 <TextView
+                    android:id="@+id/myInfo_nickNameT"
                     style="@style/setUp_Huisetext"
                     android:layout_toLeftOf="@id/myInfo_nikeNameI"
                     android:layout_marginRight="20dp"
@@ -99,6 +103,7 @@
                     android:id="@+id/myInfo_sexI"
                     style="@style/intoNextPage_arrow_gray_small2"/>
                 <TextView
+                    android:id="@+id/myInfo_sexT"
                     style="@style/setUp_Huisetext"
                     android:layout_toLeftOf="@id/myInfo_sexI"
                     android:layout_marginRight="20dp"
@@ -116,10 +121,11 @@
                     android:id="@+id/myInfo_realNameI"
                     style="@style/intoNextPage_arrow_gray_small2"/>
                 <TextView
-                    style="@style/setUp_text"
+                    android:id="@+id/myInfo_realNameT"
+                    style="@style/setUp_Huisetext"
                     android:layout_toLeftOf="@id/myInfo_realNameI"
                     android:layout_marginRight="20dp"
-                    android:text=""/>
+                    android:text="随风"/>
                 <View
                     style="@style/setUp_henxianV"/>
             </RelativeLayout>
@@ -145,6 +151,8 @@
                 android:layout_marginLeft="20dp"
                 android:textSize="@dimen/text_11"
                 android:textColor="#999999"/>
+            <View
+                style="@style/setUp_henxianV"/>
             <RelativeLayout
                 android:id="@+id/myInfo_WXR"
                 style="@style/base_setUp_RelativeLayout">
@@ -180,11 +188,14 @@
                 <View
                     style="@style/setUp_henxianV"/>
             </RelativeLayout>
+            <View
+                android:layout_marginTop="20dp"
+                style="@style/setUp_henxianV"/>
             <RelativeLayout
                 android:id="@+id/myInfo_recommdeR"
                 style="@style/base_setUp_RelativeLayout"
-                android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp">
+
                 <TextView
                     style="@style/setUp_text"
                     android:text="@string/tuijianren"/>

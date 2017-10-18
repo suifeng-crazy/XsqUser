@@ -6,15 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/beijingse"
-    tools:context="com.example.xsq.Me.SetUpActivity">
+    tools:context="com.example.xsq.My.SetUpActivity">
 
     <!--  设置页面 顶部 -->
     <RelativeLayout
         android:id="@+id/setUp_topR"
         style="@style/base_title_white">
+
         <ImageView
             android:id="@+id/setUp_topI"
             style="@style/base_title_image"/>
+
         <TextView
             style="@style/base_title_text_red"
             android:text="@string/shezhi"/>
@@ -26,14 +28,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/setUp_topR">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                style="@style/setUp_henxianV"
+                android:layout_marginTop="20dp"/>
 
             <RelativeLayout
                 android:id="@+id/setUp_loginPR"
                 style="@style/base_setUp_RelativeLayout"
-                android:layout_marginTop="20dp">
+                >
 
                 <TextView
                     style="@style/setUp_text"
@@ -122,8 +129,10 @@
                 <TextView
                     style="@style/setUp_text"
                     android:text="@string/youxiangdizhi"/>
+
                 <ImageView
                     style="@style/intoNextPage_arrow_gray_small2"/>
+
                 <View
                     style="@style/setUp_henxianV"/>
             </RelativeLayout>
@@ -144,11 +153,14 @@
                     style="@style/setUp_henxianV"/>
             </RelativeLayout>
 
+            <View
+                style="@style/setUp_henxianV"
+                android:layout_marginTop="20dp"/>
+
             <RelativeLayout
                 android:id="@+id/setUp_editR"
                 style="@style/base_setUp_RelativeLayout"
-                android:layout_below="@id/setUp_messageR"
-                android:layout_marginTop="20dp">
+                android:layout_below="@id/setUp_messageR">
 
                 <TextView
                     style="@style/setUp_text"
@@ -186,6 +198,6 @@
                 android:background="@color/colorWhite"
                 android:gravity="center"
                 android:text="@string/tuichudenglu"/>
-        </RelativeLayout>
+        </LinearLayout>
     </ScrollView>
 </RelativeLayout>

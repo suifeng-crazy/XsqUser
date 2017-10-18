@@ -1,10 +1,9 @@
-package com.example.xsq.Me;
+package com.example.xsq.My;
 
 /**
  * 设置页面
  */
 
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +21,7 @@ import com.example.xsq.util.UpdateManager;
 public class SetUpActivity extends BaseActivity {
     UpdateManager mUpdateManager;
     TextView mTvOut;
-    RelativeLayout mReEdt,mReLoginPas,mRePayPas;
+    RelativeLayout mReEdt,mReLoginPas,mRePayPas,mReAboutUs;
     ImageView mImOut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +33,7 @@ public class SetUpActivity extends BaseActivity {
     }
 
     private void initUI() {
+        mReAboutUs = findViewById(R.id.setUp_aboutUsR);
         mTvOut = findViewById(R.id.setUp_outT);
         mReEdt = findViewById(R.id.setUp_editR);
         mImOut = findViewById(R.id.setUp_topI);
@@ -45,11 +45,15 @@ public class SetUpActivity extends BaseActivity {
         mTvOut.setOnClickListener(this);
         mReEdt.setOnClickListener(this);
         mImOut.setOnClickListener(this);
+        mReAboutUs.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
        switch (v.getId()){
+           case R.id.setUp_aboutUsR:
+               strActivity(SetUpActivity.this,MyAbuoutUsActivity.class);
+               break;
            case R.id.setUp_loginPR:
                strActivity(SetUpActivity.this,MyChangeLoginPasswordActivity.class);
                break;
@@ -61,7 +65,7 @@ public class SetUpActivity extends BaseActivity {
                break;
            case R.id.setUp_outT:
                NumberUtil.token = "";
-               strActivity(SetUpActivity.this,MeMainActivity.class);
+               strActivity(SetUpActivity.this,MyMainActivity.class);
                finish();
                break;
            case R.id.setUp_topI:

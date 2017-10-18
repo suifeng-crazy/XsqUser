@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xsq.My.MyChangeSexActivity"
+    android:background="@color/beijingse"
+    android:orientation="vertical">
+
+    <!--  设置页面 顶部 -->
+    <RelativeLayout
+        android:id="@+id/setUp_topR"
+        style="@style/base_title_white">
+
+        <ImageView
+            android:id="@+id/MyChangeSex_topI"
+            style="@style/base_title_image"/>
+
+        <TextView
+            style="@style/base_title_text_red"
+            android:text="修改性别"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ChangeSex_man"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlue"
+        android:layout_marginTop="20dp"
+        android:text="男"/>
+
+    <Button
+        android:id="@+id/ChangeSex_girl"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/textblack"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:text="女"/>
+
+    <Button
+        android:id="@+id/ChangeSex_submit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorRed"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp"
+        android:text="提交"/>
+</LinearLayout>

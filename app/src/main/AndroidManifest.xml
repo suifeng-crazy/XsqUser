@@ -8,13 +8,16 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <!-- 允许对sd卡进行读写操作 -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <!-- SD卡读取权限，用户写入离线定位数据 -->
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 用于读取手机硬件信息等，用于机型过滤 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 网络库使用，当网络操作时需要确保事务完成不被杀掉 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- 存储读写权限 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- 存储读写权限 -->
     <!-- 上面是百度定位用到的权限 -->
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
@@ -41,13 +44,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".xsq.Login.MainActivity">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN"/> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
-            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".xsq.Login.Login"
@@ -69,7 +65,7 @@
         </activity>
         <activity android:name=".xsq.ServerItem.ServierMainActivity">
         </activity>
-        <activity android:name=".xsq.Me.MeMainActivity">
+        <activity android:name=".xsq.My.MyMainActivity">
         </activity>
 
         <!-- 百度定位功能使用  title_activity_yin_dao -->
@@ -88,27 +84,31 @@
         </activity>
         <activity android:name=".xsq.Home.HomeRecommedBuyActivity">
         </activity>
-        <activity android:name=".xsq.Me.SetUpActivity">
+        <activity android:name=".xsq.My.SetUpActivity">
         </activity>
-        <activity android:name=".xsq.Me.MeInfoActivity">
+        <activity android:name=".xsq.My.MyInfoActivity">
         </activity>
-        <activity android:name=".xsq.Me.OrderListActivity">
+        <activity android:name=".xsq.My.OrderListActivity">
         </activity>
-        <activity android:name=".xsq.Me.MyCarActivity">
+        <activity android:name=".xsq.My.MyCarActivity">
         </activity>
-        <activity android:name=".xsq.Me.MyCarAddCarActivity">
+        <activity android:name=".xsq.My.MyCarAddCarActivity">
         </activity>
-        <activity android:name=".xsq.Me.OrderMessageActivity">
+        <activity android:name=".xsq.My.OrderMessageActivity">
         </activity>
-        <activity android:name=".xsq.Me.MyChangeLoginPasswordActivity">
+        <activity android:name=".xsq.My.MyChangeLoginPasswordActivity">
         </activity>
-        <activity android:name=".xsq.Me.MyChangePayPasswordActivity">
+        <activity android:name=".xsq.My.MyChangePayPasswordActivity">
         </activity>
-        <activity android:name=".xsq.Me.MyChangeNiceNameActivity">
+        <activity android:name=".xsq.My.MyChangeNiceNameActivity">
         </activity>
-        <activity android:name=".xsq.Me.MyRealNameActivity">
+        <activity android:name=".xsq.My.MyRealNameActivity">
         </activity>
-        <activity android:name=".xsq.Me.MyChangePhoneActivity">
+        <activity android:name=".xsq.My.MyChangePhoneActivity">
+        </activity>
+        <activity android:name=".xsq.My.MyAbuoutUsActivity">
+        </activity>
+        <activity android:name=".xsq.My.MyChangeSexActivity">
         </activity>
     </application>
 

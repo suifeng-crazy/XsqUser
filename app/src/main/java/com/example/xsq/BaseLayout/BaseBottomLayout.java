@@ -15,7 +15,7 @@ import com.example.R;
 import com.example.xsq.util.NumberUtil;
 import com.example.xsq.Car.CarMainActivity;
 import com.example.xsq.Home.HomeActivity;
-import com.example.xsq.Me.MeMainActivity;
+import com.example.xsq.My.MyMainActivity;
 import com.example.xsq.ServerItem.ServierMainActivity;
 import com.example.xsq.ShopMainActivity;
 
@@ -92,7 +92,7 @@ public class BaseBottomLayout extends LinearLayout implements View.OnClickListen
 		 		five.setImageResource(R.drawable.my_select);
 		 		fiveT.setTextColor(getResources().getColor(R.color.colorBlue));
 				NumberUtil.baseBottomSelectUI = 5;
-				intent = new Intent(getContext(), MeMainActivity.class);
+				intent = new Intent(getContext(), MyMainActivity.class);
 		 		break;
 		 }
 		if(beforeActivity < NumberUtil.baseBottomSelectUI){

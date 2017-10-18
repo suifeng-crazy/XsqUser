@@ -1,4 +1,4 @@
-package com.example.xsq.Me;
+package com.example.xsq.My;
 
 import android.os.Bundle;
 import android.view.View;

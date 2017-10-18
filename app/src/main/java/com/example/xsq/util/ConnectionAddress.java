@@ -7,14 +7,19 @@ package com.example.xsq.util;
 public class ConnectionAddress {
     // 基础IP 地址
     public static final String BASE_Adress="http://192.168.1.191";
-    // 基础 文件地址
+    // 基础 文件地址 (被保存下来的。不可修改。)
     public static  String BASE_FileAdress = "";
+    // 基础 文件地址 (被保存下来的。不可修改。)
+    public static final String BASE_Image_FileAdress = "http://192.168.1.191:8081";
+
 
     // 基础二级分类地址
     public static final String BASE_SecondAdress = "/app/hm";
 
     //  版本升级
     public static final String BASE_CheckEdt = BASE_Adress+"/app/hm/inx/apv/cav?plat=android";
+    // 获取关于我们H5 页面地址
+    public static final String BASE_Get_AboutUs = BASE_Adress+"/app/hm/inx/apv/au";
 
     // 登录使用接口地址
     public static final String BASE_GET_TOKEN = BASE_Adress+"/app/hm/lg/reg/dlg";
@@ -58,4 +63,7 @@ public class ConnectionAddress {
     public static final String  BASE_Get_ChangePhoneGetCode = BASE_Adress+"/app/mg/inx/ucc/supc";
     // 修改手机号
     public static final String  BASE_Get_ChangePhone = BASE_Adress+"/app/mg/inx/ucc/up";
+
+    // 头像上传接口
+    public static final String  BASE_Upload_UserHeaderImage = BASE_Image_FileAdress+"/fileMg/up";
 }

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.suifeng.xsq.xsq.Me.MyCarActivity"
+    tools:context="com.example.xsq.My.MyCarActivity"
     android:background="@color/colorWhite">
 
     <!--  车库 顶部 -->

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
-    tools:context="com.example.suifeng.xsq.xsq.Me.OrderMessageActivity">
+    tools:context="com.example.xsq.My.OrderMessageActivity">
 
     <!--  订单详情页面 顶部 -->
     <RelativeLayout

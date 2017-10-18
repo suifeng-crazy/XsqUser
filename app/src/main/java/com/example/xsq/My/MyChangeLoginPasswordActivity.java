@@ -1,9 +1,8 @@
-package com.example.xsq.Me;
+package com.example.xsq.My;
 
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -16,11 +15,8 @@ import android.widget.TextView;
 import com.example.R;
 import com.example.xsq.util.BaseActivity;
 import com.example.xsq.util.ConnectionAddress;
-import com.example.xsq.util.JsonStringMapUtil;
 import com.example.xsq.util.NumberUtil;
 import com.example.xsq.util.PostParma;
-
-import org.w3c.dom.Text;
 
 /**
  * 个人中心 - 设置 - 修改登录密码页面

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xsq.My.MyAbuoutUsActivity"
+    android:orientation="vertical">
+
+
+    <!--  设置页面 顶部 -->
+    <RelativeLayout
+        android:id="@+id/setUp_topR"
+        style="@style/base_title_white">
+
+        <ImageView
+            android:id="@+id/MyAboutUs_topI"
+            style="@style/base_title_image"/>
+
+        <TextView
+            style="@style/base_title_text_red"
+            android:text="@string/guanyuwomen"/>
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/MyAboutUs_Web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+</LinearLayout>

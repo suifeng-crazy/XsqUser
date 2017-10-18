@@ -1,19 +1,19 @@
-package com.example.xsq.Me;
+package com.example.xsq.My;
 
+import android.content.Intent;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 import com.example.R;
 import com.example.xsq.util.BaseActivity;
 import com.example.xsq.util.ConnectionAddress;
-import com.example.xsq.util.JsonStringMapUtil;
 import com.example.xsq.util.NumberUtil;
 import com.example.xsq.util.PostParma;
 
@@ -24,6 +24,7 @@ public class MyChangePhoneActivity extends BaseActivity {
     String mStPhone,mStPhoneCode;
     Boolean mBoIsGetPhoneCode,mBoHasGetPhoneCode = false,mBoIsTrueChange;
     int mItRun;
+    ImageView mImLeave;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,7 @@ public class MyChangePhoneActivity extends BaseActivity {
 
 
     private void initUI() {
+        mImLeave = findViewById(R.id.ChangePhone_topI);
         mEdPhone = findViewById(R.id.ChangePhone_BeforPasE);
         mEdPhoneCode = findViewById(R.id.ChangePhone_PhoneCodeE);
         mBtPhoneCode = findViewById(R.id.ChangePhone_GetPhoneCodeT);
@@ -43,12 +45,16 @@ public class MyChangePhoneActivity extends BaseActivity {
 
         mBtPhoneCode.setOnClickListener(this);
         mBtSubmit.setOnClickListener(this);
+        mImLeave.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.ChangePhone_topI:
+                finish();
+                break;
             case R.id.ChangePhone_GetPhoneCodeT:
                 mStPhone = mEdPhone.getText().toString();
                 System.out.println("mStPhone:"+mStPhone);
@@ -115,6 +121,11 @@ public class MyChangePhoneActivity extends BaseActivity {
                     break;
                 case 999:
                     toastMessageF("修改成功");
+                    Intent data =new Intent();//只是回传数据就不用写跳转对象
+                    data.putExtra("data",mStPhone);//数据放到data里面去
+                    setResult(2,data);
+                    NumberUtil.user.setUserPhone(mStPhone);
+                    finish();
                     break;
             }
         }
