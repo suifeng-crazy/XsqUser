@@ -64,7 +64,9 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
 
 // 展示Dialog 而且不能 点击消失 ， 只有执行操作的时候才能消失。
 //        toastMessage(this,"xxxxxxxxxxxxxxxxxxxxxxxx");
-        loading_Dialog = new CustomProgressDialog(this, R.style.dialog);
+        if (null == loading_Dialog) {
+            loading_Dialog = new CustomProgressDialog(this, R.style.dialog);
+        }
         loading_Dialog.setCancelable(false);//设置进度条是否可以按退回键取消
         //设置点击进度对话框外的区域对话框不消失
         loading_Dialog.setCanceledOnTouchOutside(false);
