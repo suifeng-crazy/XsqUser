@@ -152,7 +152,7 @@ public class MyMainActivity extends BaseActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode==1&&resultCode==1)//通过请求码(去SActivity)和回传码（回传数据到第一个页面）判断回传的页面
+        if (requestCode==1&&resultCode==RESULT_OK && null != data)//通过请求码(去SActivity)和回传码（回传数据到第一个页面）判断回传的页面
         {
             Boolean content=data.getBooleanExtra("data",false);//字符串content得到data数据
             System.out.println("content:"+content);
@@ -169,7 +169,19 @@ public class MyMainActivity extends BaseActivity {
         }
         return super.onKeyDown(keyCode, event);
     }
-    private Handler pic_hdl;
+    private Handler pic_hdl = new Handler(new Handler.Callback() {
+        @Override
+        public boolean handleMessage(Message msg) {
+            if (0 == msg.what) {
+                Bitmap obj = (Bitmap) msg.obj;
+                if (null != obj) {
+                    NumberUtil.UserHeaderImageBitmap = obj;
+                    mImHeadImage.setImageBitmap(obj);
+                }
+            }
+            return true;
+        }
+    });
 
     class LoadPicThread extends Thread {
         @Override
@@ -179,7 +191,7 @@ public class MyMainActivity extends BaseActivity {
             if(("").equals(imageURL) || imageURL == null){
                 return ;
             }
-            Bitmap img = getUrlImage(imageURL);
+            Bitmap img = getUrlImage("http://192.168.10.21/" + imageURL);
             Message msg = pic_hdl.obtainMessage();
             msg.what = 0;
             msg.obj = img;
