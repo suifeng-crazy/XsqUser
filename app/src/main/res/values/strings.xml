@@ -136,4 +136,11 @@
     <string name="zhifumima">支付密码</string>
     <string name="qingshurunicheng">请输入昵称</string>
     <string name="xiugaishoujihao">修改手机号</string>
+  
+    <!--用户信息-->
+    <string name="user_info_modify_header_img_success">修改头像成功</string>
+    <string name="user_info_modify_header_img_fail">修改头像失败</string>
+    <string name="user_info_modify_header_img_camera_open_fail">抱歉，无法打开相机。</string>
+    <string name="user_info_modify_header_img_crop_fail">抱歉，无法裁剪照片。</string>
+    <string name="user_info_modify_header_img_get_fail">抱歉，未能获取照片。</string>
 </resources>
