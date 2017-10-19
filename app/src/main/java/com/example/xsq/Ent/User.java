@@ -1,7 +1,5 @@
 package com.example.xsq.Ent;
 
-import com.don.library.json.annotation.Name;
-
 /**
  * Created by suifeng on 2017/9/28.
  */
