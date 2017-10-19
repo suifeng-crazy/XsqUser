@@ -86,7 +86,9 @@
         </activity>
         <activity android:name=".xsq.My.SetUpActivity">
         </activity>
-        <activity android:name=".xsq.My.MyInfoActivity">
+        <activity 
+                  android:name=".xsq.My.MyInfoActivity"
+                  android:configChanges="orientation|screenSize|keyboardHidden">
         </activity>
         <activity android:name=".xsq.My.OrderListActivity">
         </activity>
