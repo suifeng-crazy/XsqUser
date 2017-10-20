@@ -820,6 +820,11 @@
     <string name="tuijianren">推荐人</string>
     <string name="tuikuan">已退款</string>
     <string name="tuisongxiaoxi">推送消息</string>
+    <string name="user_info_modify_header_img_camera_open_fail">抱歉，无法打开相机。</string>
+    <string name="user_info_modify_header_img_crop_fail">抱歉，无法裁剪照片。</string>
+    <string name="user_info_modify_header_img_fail">修改头像失败</string>
+    <string name="user_info_modify_header_img_get_fail">抱歉，未能获取照片。</string>
+    <string name="user_info_modify_header_img_success">修改头像成功</string>
     <string name="wan">万</string>
     <string name="weidenglong">未登录</string>
     <string name="weixin">微信</string>
@@ -1902,8 +1907,6 @@
         <item name="tabBackground">?attr/selectableItemBackground</item>
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
-    </style>
-    <style name="LibraryAppTheme" parent="Theme.AppCompat.NoActionBar">
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

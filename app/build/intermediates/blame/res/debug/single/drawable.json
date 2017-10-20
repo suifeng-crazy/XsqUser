@@ -336,12 +336,12 @@
         "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\weizhangchaxun.png",
         "source": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\src\\main\\res\\drawable\\weizhangchaxun.png"
+    },
+    {
+        "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\suifeng\\.android\\build-cache\\6e17a9e756c525435117fd4f3159d75c7211116c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "D:\\workspace\\myFXS\\myFXS\\XsqU\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
