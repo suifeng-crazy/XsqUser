@@ -49,9 +49,6 @@ public class MyInfoActivity extends BaseActivity {
     private final static String URL_HEADER_UPLOAD = "http://192.168.1.191:8081/fileMg/up";
     private final static String URL_MODIFY_HEADER_IMG = "http://192.168.1.191/app/mg/inx/ucc/sbm";
 
-    String cgl;
-    String testGit;
-
     SelectPicPopupWindow menuWindow;
     RelativeLayout mReChangePhone, mReNickName, mReRealName, mReSex, mReHeaderImage;
     ImageView mImLeave, mImHeader;
@@ -296,6 +293,23 @@ public class MyInfoActivity extends BaseActivity {
         Bundle extras = intent.getExtras();
         if (extras != null) {
             Bitmap photo = extras.getParcelable("data");
+            // photo 已经是裁剪后的圆形头像了， 要将他上传。
+//            Uri uri = (Uri)intent.getExtras("uri");
+//            Intent picture = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+//            Uri uri = data.getData();
+//            Cursor cursor = this.getContentResolver().query(photo, null, null, null, null);
+//            cursor.moveToFirst();
+//            String imgNo = cursor.getString(0); // 图片编号
+//            String imgPath = cursor.getString(1); // 图片文件路径
+//            String imgSize = cursor.getString(2); // 图片大小
+//            String imgName = cursor.getString(3); // 图片文件名
+//
+////                    toastMessage(AutoActivity.this, imgPath);
+//            System.out.println("imgPath:" + imgPath);
+//            cursor.close();
+////            intent = new Intent(AutoActivity.this, PhotoUpload.class);
+////            uploadFile = imgPath;
+//            IMAGE_FILE_NAME = imgPath;
             File file = saveBitmap(photo);
             if (null != file) {
                 // photo 已经是裁剪后的圆形头像了， 要将他上传。
@@ -348,6 +362,8 @@ public class MyInfoActivity extends BaseActivity {
             return false;
         }
     }
+
+    private String newName = "temp_head_image.jpg";
 
     /* 上传文件至Server的方法 */
     private static class UploadHeaderImgRunnable implements Runnable {
@@ -442,5 +458,53 @@ public class MyInfoActivity extends BaseActivity {
             }
             return false;
         }
+    }
+
+    /////////////////////////////////////////////////////////////////////
+    public static String testtaskPost(String filePath) throws Exception {
+        String result = null;
+        HttpClient httpclient = new DefaultHttpClient();
+        try {
+            // 新建一个httpclient Post 请求
+            HttpPost httppost = new HttpPost("http://192.168.1.191/fileMg/up");
+            // 由于只是测试使用 这里的路径对应本地文件的物理路径
+            FileBody bin = new FileBody(new File(filePath));
+            File myfile = new File(filePath);
+            long size = myfile.length();
+            // 向MultipartEntity添加必要的数据
+            //StringBody member = new StringBody("123456",Charset.forName("UTF-8"));
+            MultipartEntity reqEntity = new MultipartEntity();
+            reqEntity.addPart("file", bin);// file为请求后台的Fileupload参数
+            //reqEntity.addPart("member", member);// 请求后台Fileupload的参数
+            httppost.setEntity(reqEntity);
+            // 这里是后台接收文件的接口需要的参数，根据接口文档需要放在http请求的请求头
+            /*String taskid = "919894d9-ea5a-4f6a-8edd-b14ef3b6f104";
+			httppost.setHeader("task-id", taskid);
+			String fileid = UUID.randomUUID().toString();
+			httppost.setHeader("file-id", fileid);
+			httppost.setHeader("file-name", "1.doc");
+			httppost.setHeader("file-size", String.valueOf(size));
+			httppost.setHeader("total", String.valueOf(1));
+			httppost.setHeader("index", String.valueOf(1));*/
+
+            HttpResponse response = httpclient.execute(httppost);
+            int statusCode = response.getStatusLine().getStatusCode();
+            if (statusCode == HttpStatus.SC_OK) {
+                HttpEntity resEntity = response.getEntity();
+                // httpclient自带的工具类读取返回数据
+                result = EntityUtils.toString(resEntity);
+//                EntityUtils.consume(resEntity);
+            }
+        } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                httpclient.getConnectionManager().shutdown();
+            } catch (Exception ignore) {
+            }
+        }
+        return result;
     }
 }
