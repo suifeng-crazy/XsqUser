@@ -45,10 +45,14 @@ import java.lang.ref.WeakReference;
 
 import okhttp3.Response;
 
+/**
+ *
+ * 测试修改
+ */
 public class MyInfoActivity extends BaseActivity {
     private final static String URL_HEADER_UPLOAD = "http://192.168.1.191:8081/fileMg/up";
     private final static String URL_MODIFY_HEADER_IMG = "http://192.168.1.191/app/mg/inx/ucc/sbm";
-
+    private String mTestGit;
     SelectPicPopupWindow menuWindow;
     RelativeLayout mReChangePhone, mReNickName, mReRealName, mReSex, mReHeaderImage;
     ImageView mImLeave, mImHeader;
